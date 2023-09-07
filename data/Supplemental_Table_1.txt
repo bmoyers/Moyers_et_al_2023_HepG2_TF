@@ -1,0 +1,772 @@
+Factor	Tag	Preferred_NonPref	peakLocation	Final.HA.Annotation	Lambert2018.TF.NotTF	Notes	go_anno	orthologous_group
+ADNP	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF962QOB/@@download/ENCFF962QOB.bed.gz	TF	Yes		transcription factor	COG1219
+AFF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503103&format=file&file=GSM7503103%5FAFF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG3170
+AFF4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF423ZMT/@@download/ENCFF423ZMT.bed.gz	Other	No		transcription factor	COG3170
+AGO1		Preferred	https://www.encodeproject.org/files/ENCFF130JQD/@@download/ENCFF130JQD.bed.gz	Other		Argonaute	"RNA binding protein,transcription factor"	COG2304
+AGO2		Preferred	https://www.encodeproject.org/files/ENCFF348MDS/@@download/ENCFF348MDS.bed.gz	Other		Argonaute	"RNA binding protein,transcription factor"	COG0438
+AHDC1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF418EWE/@@download/ENCFF418EWE.bed.gz	TF	Yes		transcription factor	COG3266
+AHR	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF674NDV/@@download/ENCFF674NDV.bed.gz	TF	Yes		transcription factor	COG2205
+AKAP8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF540SLC/@@download/ENCFF540SLC.bed.gz	TF	Yes		RNA binding protein	COG1403
+AKNA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF579OCV/@@download/ENCFF579OCV.bed.gz	TF	Yes		transcription factor	COG1196
+ARID3A		Preferred	https://www.encodeproject.org/files/ENCFF694XNQ/@@download/ENCFF694XNQ.bed.gz	TF	Yes		transcription factor	COG3170
+ARID4A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF575UZO/@@download/ENCFF575UZO.bed.gz	Other	No		transcription factor	COG1196
+ARID4B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF434BGG/@@download/ENCFF434BGG.bed.gz	Other	No		transcription factor	COG2433
+ARID5B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF122HBJ/@@download/ENCFF122HBJ.bed.gz	TF	Yes		transcription factor	COG0631
+ARNT		Preferred	https://www.encodeproject.org/files/ENCFF055JFR/@@download/ENCFF055JFR.bed.gz	TF	Yes		transcription factor	COG1520
+BMAL1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF049HEP/@@download/ENCFF049HEP.bed.gz	TF	Yes		transcription factor	COG1028
+ASH2L		Preferred	https://www.encodeproject.org/files/ENCFF248IAZ/@@download/ENCFF248IAZ.bed.gz	TF			"transcription factor,chromatin remodeller"	COG1198
+ATAD3A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF253ECF/@@download/ENCFF253ECF.bed.gz	Other			transcription factor	COG0465
+ATF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF363ZSJ/@@download/ENCFF363ZSJ.bed.gz	TF	Yes		transcription factor	COG1404
+ATF2		Non-preferred	https://www.encodeproject.org/files/ENCFF737KKO/@@download/ENCFF737KKO.bed.gz	TF	Yes		transcription factor	COG3206
+ATF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF865OTB/@@download/ENCFF865OTB.bed.gz	TF	Yes		transcription factor	COG3206
+ATF3	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF891BJN/@@download/ENCFF891BJN.bed.gz	TF	Yes		transcription factor	COG1196
+ATF3		Preferred	https://www.encodeproject.org/files/ENCFF681PQB/@@download/ENCFF681PQB.bed.gz	TF	Yes		transcription factor	COG1196
+ATF4	eGFP	Preferred	https://www.encodeproject.org/files/ENCFF690CMF/@@download/ENCFF690CMF.bed.gz	TF	Yes		transcription factor	COG3170
+ATF5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF166CIL/@@download/ENCFF166CIL.bed.gz	TF	Yes		transcription factor	COG3599
+ATF6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF463GXC/@@download/ENCFF463GXC.bed.gz	TF	Yes		transcription factor	COG3170
+ATF7		Preferred	https://www.encodeproject.org/files/ENCFF753DBF/@@download/ENCFF753DBF.bed.gz	TF	Yes		transcription factor	COG3206
+ATF7	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF276IMS/@@download/ENCFF276IMS.bed.gz	TF	Yes		transcription factor	COG3206
+ATM		Preferred	https://www.encodeproject.org/files/ENCFF902IRY/@@download/ENCFF902IRY.bed.gz	Other	No		transcription factor	2Z86R
+ATRX	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF674JQI/@@download/ENCFF674JQI.bed.gz	Other	No		transcription factor	COG0553
+BAZ2A	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503104&format=file&file=GSM7503104%5FBAZ2A%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0457
+BCL3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF731MBF/@@download/ENCFF731MBF.bed.gz	Other	No		transcription factor	COG0666
+BCL6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF932UJW/@@download/ENCFF932UJW.bed.gz	TF	Yes		transcription factor	COG1403
+BCLAF1		Preferred	https://www.encodeproject.org/files/ENCFF491DYX/@@download/ENCFF491DYX.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG1403
+BHLHE40		Non-preferred	https://www.encodeproject.org/files/ENCFF263AYI/@@download/ENCFF263AYI.bed.gz	TF	Yes		transcription factor	COG0550
+BHLHE40		Preferred	https://www.encodeproject.org/files/ENCFF268DXL/@@download/ENCFF268DXL.bed.gz	TF	Yes		transcription factor	COG0550
+BRCA1		Non-preferred	https://www.encodeproject.org/files/ENCFF733IVW/@@download/ENCFF733IVW.bed.gz	Other	No		transcription factor	COG2378
+BRCA1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF237LPI/@@download/ENCFF237LPI.bed.gz	Other	No		transcription factor	COG2378
+BRD4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF119YIG/@@download/ENCFF119YIG.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG3170
+BRD4		Non-preferred	https://www.encodeproject.org/files/ENCFF262TAP/@@download/ENCFF262TAP.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG3170
+CAMTA1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503105&format=file&file=GSM7503105%5FCAMTA1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG5492
+CAMTA2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF488RBR/@@download/ENCFF488RBR.bed.gz	TF	Yes		transcription factor	COG0286
+CBFB	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF389HNP/@@download/ENCFF389HNP.bed.gz	Other	No		transcription factor	COG0572
+CBX2		Preferred	https://www.encodeproject.org/files/ENCFF670RQW/@@download/ENCFF670RQW.bed.gz	Other	Yes*	Chromatin remodeller	"transcription factor,chromatin remodeller"	COG1403
+CBX5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF574QKP/@@download/ENCFF574QKP.bed.gz	Other			"transcription factor,chromatin remodeller"	COG4227
+CCAR2		Preferred	https://www.encodeproject.org/files/ENCFF504CCV/@@download/ENCFF504CCV.bed.gz	Other			"RNA binding protein,transcription factor"	COG1196
+CEBPA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF713MLA/@@download/ENCFF713MLA.bed.gz	TF	Yes		transcription factor	COG3599
+CEBPB		Preferred	https://www.encodeproject.org/files/ENCFF886PVT/@@download/ENCFF886PVT.bed.gz	TF	Yes		transcription factor	COG3206
+CEBPB		Non-preferred	https://www.encodeproject.org/files/ENCFF717JGJ/@@download/ENCFF717JGJ.bed.gz	TF	Yes		transcription factor	COG3206
+CEBPD	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF784EXR/@@download/ENCFF784EXR.bed.gz	TF	Yes		transcription factor	COG1196
+CEBPG	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF642FIX/@@download/ENCFF642FIX.bed.gz	TF	Yes		transcription factor	COG1196
+CEBPZ		Preferred	https://www.encodeproject.org/files/ENCFF589EAS/@@download/ENCFF589EAS.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1413
+CENPBD1P	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503106&format=file&file=GSM7503106%5FCENPBD1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	
+CENPX	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503107&format=file&file=GSM7503107%5FCENPX%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	Yes*	Does not bind DNA on its own.		COG5464
+CERS6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF188ULF/@@download/ENCFF188ULF.bed.gz	Other	No		transcription factor	COG1835
+CHD2		Preferred	https://www.encodeproject.org/files/ENCFF369UGC/@@download/ENCFF369UGC.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG0553
+CHD4		Preferred	https://www.encodeproject.org/files/ENCFF927XNA/@@download/ENCFF927XNA.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG0553
+CREB1	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF648PUH/@@download/ENCFF648PUH.bed.gz	TF	Yes		transcription factor	COG3266
+CREB1		Preferred	https://www.encodeproject.org/files/ENCFF852AAQ/@@download/ENCFF852AAQ.bed.gz	TF	Yes		transcription factor	COG3266
+CREB1		Uncharacterized	https://www.encodeproject.org/files/ENCFF564YGY/@@download/ENCFF564YGY.bed.gz	TF	Yes		transcription factor	COG3266
+CREB3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF792EMG/@@download/ENCFF792EMG.bed.gz	TF	Yes		transcription factor	COG4372
+CREM		Non-preferred	https://www.encodeproject.org/files/ENCFF092MMG/@@download/ENCFF092MMG.bed.gz	TF	Yes		transcription factor	COG2919
+CREM	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF847YQG/@@download/ENCFF847YQG.bed.gz	TF	Yes		transcription factor	COG2919
+YBX3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503108&format=file&file=GSM7503108%5FCSDA%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes	AKA YBX3	"RNA binding protein,transcription factor"	
+CTCF	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF648HFC/@@download/ENCFF648HFC.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1142
+CTCF		Non-preferred	https://www.encodeproject.org/files/ENCFF611FHI/@@download/ENCFF611FHI.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1142
+CTCF		Preferred	https://www.encodeproject.org/files/ENCFF123DAC/@@download/ENCFF123DAC.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1142
+CTCF		Non-preferred	https://www.encodeproject.org/files/ENCFF695QSJ/@@download/ENCFF695QSJ.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1142
+CTCF		Non-preferred	https://www.encodeproject.org/files/ENCFF704ECS/@@download/ENCFF704ECS.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1142
+DBP	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF945MVC/@@download/ENCFF945MVC.bed.gz	TF	Yes		transcription factor	COG1196
+DDIT3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF845NWV/@@download/ENCFF845NWV.bed.gz	TF	Yes		transcription factor	COG2433
+DLX6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF460TXX/@@download/ENCFF460TXX.bed.gz	TF	Yes		transcription factor	COG1403
+DMAP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF423IFD/@@download/ENCFF423IFD.bed.gz	Other	No		transcription factor	COG1403
+DMTF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF886PNQ/@@download/ENCFF886PNQ.bed.gz	TF	Yes		transcription factor	COG1595
+DNMT1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF350FND/@@download/ENCFF350FND.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG0425
+DNMT3B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF469JVY/@@download/ENCFF469JVY.bed.gz	Other	No		transcription factor	COG0270
+DPF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503109&format=file&file=GSM7503109%5FDPF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0436
+DPF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF599FAQ/@@download/ENCFF599FAQ.bed.gz	Other	No		transcription factor	COG1403
+DR1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF043PLX/@@download/ENCFF043PLX.bed.gz	TF	Yes		transcription factor	COG1196
+DRAP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF596EYH/@@download/ENCFF596EYH.bed.gz	TF	Yes		transcription factor	COG1403
+DZIP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF718UWQ/@@download/ENCFF718UWQ.bed.gz	TF	Yes		transcription factor	COG1403
+E2F1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF509VPA/@@download/ENCFF509VPA.bed.gz	TF	Yes		transcription factor	COG3170
+E2F2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF987IVP/@@download/ENCFF987IVP.bed.gz	TF	Yes		transcription factor	COG3170
+E2F4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF519KUR/@@download/ENCFF519KUR.bed.gz	TF	Yes		transcription factor	COG3170
+E2F5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF732NHA/@@download/ENCFF732NHA.bed.gz	TF	Yes		transcription factor	COG3170
+E2F7	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503110&format=file&file=GSM7503110%5FE2F7%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1414
+E2F8	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503111&format=file&file=GSM7503111%5FE2F8%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG2865
+E4F1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503112&format=file&file=GSM7503112%5FE4F1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0295
+EBF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503113&format=file&file=GSM7503113%5FEBF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0823
+EEA1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF996HVG/@@download/ENCFF996HVG.bed.gz	TF	Yes		transcription factor	COG1196
+EED	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF481KFX/@@download/ENCFF481KFX.bed.gz	Other	No		transcription factor	COG2319
+EGR1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF769NZQ/@@download/ENCFF769NZQ.bed.gz	TF	Yes		transcription factor	COG3409
+EHMT2		Preferred	https://www.encodeproject.org/files/ENCFF289HHW/@@download/ENCFF289HHW.bed.gz	Other			"transcription factor,chromatin remodeller"	COG0666
+ELF1		Non-preferred	https://www.encodeproject.org/files/ENCFF374YEM/@@download/ENCFF374YEM.bed.gz	TF	Yes		transcription factor	COG0488
+ELF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF561HAC/@@download/ENCFF561HAC.bed.gz	TF	Yes		transcription factor	COG0488
+ELF3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF358NYG/@@download/ENCFF358NYG.bed.gz	TF	Yes		transcription factor	COG1357
+ELF4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF739XKR/@@download/ENCFF739XKR.bed.gz	TF	Yes		transcription factor	COG5492
+ELK1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF079BRO/@@download/ENCFF079BRO.bed.gz	TF	Yes		transcription factor	COG3266
+ELK3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503114&format=file&file=GSM7503114%5FELK3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3170
+ELK4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503115&format=file&file=GSM7503115%5FELK4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3266
+EP300	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503116&format=file&file=GSM7503116%5FEP300%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1054
+EP300		Preferred	https://www.encodeproject.org/files/ENCFF726NGV/@@download/ENCFF726NGV.bed.gz	Other	No		transcription factor	COG1054
+EP300	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF702VBV/@@download/ENCFF702VBV.bed.gz	Other	No		transcription factor	COG1054
+EP300		Non-preferred	https://www.encodeproject.org/files/ENCFF307PSW/@@download/ENCFF307PSW.bed.gz	Other	No		transcription factor	COG1054
+ERF	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF487FCZ/@@download/ENCFF487FCZ.bed.gz	TF	Yes		transcription factor	COG2124
+ESRRA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF022ALT/@@download/ENCFF022ALT.bed.gz	TF	Yes		transcription factor	COG1573
+ETS1		Non-preferred	https://www.encodeproject.org/files/ENCFF802CAB/@@download/ENCFF802CAB.bed.gz	TF	Yes		transcription factor	COG1309
+ETS1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF574HYI/@@download/ENCFF574HYI.bed.gz	TF	Yes		transcription factor	COG1309
+ETV4		Preferred	https://www.encodeproject.org/files/ENCFF231DZR/@@download/ENCFF231DZR.bed.gz	TF	Yes		transcription factor	COG3662
+ETV5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF072RWQ/@@download/ENCFF072RWQ.bed.gz	TF	Yes		transcription factor	COG4695
+ETV6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF387KML/@@download/ENCFF387KML.bed.gz	TF	Yes		transcription factor	COG0286
+EZH2		Preferred	https://www.encodeproject.org/files/ENCFF521AKL/@@download/ENCFF521AKL.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG1403
+FAM200B	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503117&format=file&file=GSM7503117%5FFAM200B%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG2826
+FIP1L1		Preferred	https://www.encodeproject.org/files/ENCFF761RXC/@@download/ENCFF761RXC.bed.gz	Other		"mRNA processing protein, RNA-binding protein. No clear DNA binding domain."	"RNA binding protein,transcription factor"	COG5511
+FOSL1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503118&format=file&file=GSM7503118%5FFOSL1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4372
+FOSL2		Non-preferred	https://www.encodeproject.org/files/ENCFF916GIW/@@download/ENCFF916GIW.bed.gz	TF	Yes		transcription factor	COG2138
+FOSL2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF200ULH/@@download/ENCFF200ULH.bed.gz	TF	Yes		transcription factor	COG2138
+FOXA1		Non-preferred	https://www.encodeproject.org/files/ENCFF055VNJ/@@download/ENCFF055VNJ.bed.gz	TF	Yes		transcription factor	COG0741
+FOXA1		Non-preferred	https://www.encodeproject.org/files/ENCFF356THI/@@download/ENCFF356THI.bed.gz	TF	Yes		transcription factor	COG0741
+FOXA1	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF235PEX/@@download/ENCFF235PEX.bed.gz	TF	Yes		transcription factor	COG0741
+FOXA1		Preferred	https://www.encodeproject.org/files/ENCFF250ISH/@@download/ENCFF250ISH.bed.gz	TF	Yes		transcription factor	COG0741
+FOXA2	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF296CWC/@@download/ENCFF296CWC.bed.gz	TF	Yes		transcription factor	COG5651
+FOXA2		Preferred	https://www.encodeproject.org/files/ENCFF589WTM/@@download/ENCFF589WTM.bed.gz	TF	Yes		transcription factor	COG5651
+FOXA3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF966LKN/@@download/ENCFF966LKN.bed.gz	TF	Yes		transcription factor	COG1280
+FOXC1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503119&format=file&file=GSM7503119%5FFOXC1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0741
+FOXJ3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF091YXG/@@download/ENCFF091YXG.bed.gz	TF	Yes		transcription factor	COG0639
+FOXK1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF791TBH/@@download/ENCFF791TBH.bed.gz	TF	Yes		transcription factor	COG3266
+FOXK2		Preferred	https://www.encodeproject.org/files/ENCFF008HBF/@@download/ENCFF008HBF.bed.gz	TF	Yes		transcription factor	COG3087
+FOXM1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF488UEC/@@download/ENCFF488UEC.bed.gz	TF	Yes		transcription factor	COG3266
+FOXO1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF068YNL/@@download/ENCFF068YNL.bed.gz	TF	Yes		transcription factor	COG3209
+FOXO4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503120&format=file&file=GSM7503120%5FFOXO4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3515
+FOXP1		Non-preferred	https://www.encodeproject.org/files/ENCFF333EZN/@@download/ENCFF333EZN.bed.gz	TF	Yes		transcription factor	COG0582
+FOXP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF786ATC/@@download/ENCFF786ATC.bed.gz	TF	Yes		transcription factor	COG0582
+FOXP4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF334AQD/@@download/ENCFF334AQD.bed.gz	TF	Yes		transcription factor	COG3599
+FUBP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF742ZEJ/@@download/ENCFF742ZEJ.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG4403
+FUBP3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF760OHO/@@download/ENCFF760OHO.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3409
+FUS		Preferred	https://www.encodeproject.org/files/ENCFF682NJA/@@download/ENCFF682NJA.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3409
+GABPA		Non-preferred	https://www.encodeproject.org/files/ENCFF528DHC/@@download/ENCFF528DHC.bed.gz	TF	Yes		transcription factor	COG1475
+GABPA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF776HYP/@@download/ENCFF776HYP.bed.gz	TF	Yes		transcription factor	COG1475
+GABPB1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF596YTW/@@download/ENCFF596YTW.bed.gz	Other	No		transcription factor	COG0666
+GATA2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF997DRI/@@download/ENCFF997DRI.bed.gz	TF	Yes		transcription factor	COG3064
+GATA4		Preferred	https://www.encodeproject.org/files/ENCFF139ESP/@@download/ENCFF139ESP.bed.gz	TF	Yes		transcription factor	COG0791
+GATAD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF903ULA/@@download/ENCFF903ULA.bed.gz	Other	No		transcription factor	COG0507
+GATAD2A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF211HPQ/@@download/ENCFF211HPQ.bed.gz	TF	Yes		transcription factor	COG3468
+GFI1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF821FDT/@@download/ENCFF821FDT.bed.gz	TF	Yes		transcription factor	COG3209
+GLI4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF707KQF/@@download/ENCFF707KQF.bed.gz	TF	Yes		transcription factor	COG1917
+GLMP	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503121&format=file&file=GSM7503121%5FGLMP%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG2814
+GLYR1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503122&format=file&file=GSM7503122%5FGLYR1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG2084
+GMEB1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF665DFU/@@download/ENCFF665DFU.bed.gz	TF	Yes		transcription factor	COG3170
+GMEB2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF169LKJ/@@download/ENCFF169LKJ.bed.gz	TF	Yes		transcription factor	COG3266
+GPBP1L1	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503123&format=file&file=GSM7503123%5FGPBP1L1%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG3023
+GPBP1L1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF111TVQ/@@download/ENCFF111TVQ.bed.gz	TF	Yes			COG3023
+GPN1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF926PNY/@@download/ENCFF926PNY.bed.gz	Other		"Appears to be involved in RNAP import, assembly, and possibly scaffolding with other proteins. GTPase, but not DNA-binding, it seems."		COG2304
+GTF2F1		Preferred	https://www.encodeproject.org/files/ENCFF171VVS/@@download/ENCFF171VVS.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG4372
+GTF2F1		Non-preferred	https://www.encodeproject.org/files/ENCFF192JMF/@@download/ENCFF192JMF.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG4372
+GTF3A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF413CKX/@@download/ENCFF413CKX.bed.gz	TF	Yes		transcription factor	COG0675
+GZF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF338SBU/@@download/ENCFF338SBU.bed.gz	TF	Yes		transcription factor	COG0358
+H3K27ac		Preferred	https://www.encodeproject.org/files/ENCFF012ADZ/@@download/ENCFF012ADZ.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K27me3		Preferred	https://www.encodeproject.org/files/ENCFF080RXC/@@download/ENCFF080RXC.bed.gz	Histone Mark			"histone,broad histone mark"	
+H3K36me3		Preferred	https://www.encodeproject.org/files/ENCFF829XFT/@@download/ENCFF829XFT.bed.gz	Histone Mark			"histone,broad histone mark"	
+H3K4me1		Preferred	https://www.encodeproject.org/files/ENCFF424GUI/@@download/ENCFF424GUI.bed.gz	Histone Mark			"histone,broad histone mark"	
+H3K4me2		Preferred	https://www.encodeproject.org/files/ENCFF800GTZ/@@download/ENCFF800GTZ.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K4me3		Non-preferred	https://www.encodeproject.org/files/ENCFF549DKP/@@download/ENCFF549DKP.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K4me3		Non-preferred	https://www.encodeproject.org/files/ENCFF040IFA/@@download/ENCFF040IFA.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K4me3		Preferred	https://www.encodeproject.org/files/ENCFF276NZQ/@@download/ENCFF276NZQ.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K9ac		Preferred	https://www.encodeproject.org/files/ENCFF219XNL/@@download/ENCFF219XNL.bed.gz	Histone Mark			"histone,narrow histone mark"	
+H3K9me3		Preferred	https://www.encodeproject.org/files/ENCFF745LNA/@@download/ENCFF745LNA.bed.gz	Histone Mark			"histone,broad histone mark"	
+H4K20me1		Preferred	https://www.encodeproject.org/files/ENCFF942YUJ/@@download/ENCFF942YUJ.bed.gz	Histone Mark			"histone,broad histone mark"	
+HBP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF113RAY/@@download/ENCFF113RAY.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG2133
+HCFC1		Preferred	https://www.encodeproject.org/files/ENCFF391KIU/@@download/ENCFF391KIU.bed.gz	Other	No		transcription factor	COG4733
+HDAC1	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF339XCW/@@download/ENCFF339XCW.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG0123
+HDAC1		Preferred	https://www.encodeproject.org/files/ENCFF720MUU/@@download/ENCFF720MUU.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG0123
+HDAC2		Non-preferred	https://www.encodeproject.org/files/ENCFF491JNC/@@download/ENCFF491JNC.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG0123
+HDAC2	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF912MTN/@@download/ENCFF912MTN.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG0123
+HDAC2		Preferred	https://www.encodeproject.org/files/ENCFF068DVP/@@download/ENCFF068DVP.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG0123
+HDAC6		Preferred	https://www.encodeproject.org/files/ENCFF358RPJ/@@download/ENCFF358RPJ.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG0494
+HES4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503124&format=file&file=GSM7503124%5FHES4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3599
+HES6	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503125&format=file&file=GSM7503125%5FHES6%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG5607
+HHEX	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF287QGX/@@download/ENCFF287QGX.bed.gz	TF	Yes		transcription factor	COG2963
+HIC2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503126&format=file&file=GSM7503126%5FHIC2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3409
+HINFP	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF718SEF/@@download/ENCFF718SEF.bed.gz	TF	Yes		transcription factor	COG1403
+HIVEP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF215ESU/@@download/ENCFF215ESU.bed.gz	TF	Yes		transcription factor	COG1961
+ZNF875	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503127&format=file&file=GSM7503127%5FHKR1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	
+HLF	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF389WFG/@@download/ENCFF389WFG.bed.gz	TF	Yes		transcription factor	COG4372
+HMG20A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF245ELB/@@download/ENCFF245ELB.bed.gz	TF	Yes		transcription factor	COG1403
+HMG20B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF517FAL/@@download/ENCFF517FAL.bed.gz	TF	Yes		transcription factor	COG1961
+HMGA1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF490TYP/@@download/ENCFF490TYP.bed.gz	TF	Yes		transcription factor	COG3237
+HMGN3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503128&format=file&file=GSM7503128%5FHMGN3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3729
+HMGXB3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF463ZVL/@@download/ENCFF463ZVL.bed.gz	Other	No		transcription factor	COG0128
+HMGXB4	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF213JWA/@@download/ENCFF213JWA.bed.gz	Other	No		transcription factor	COG3064
+HMGXB4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF465GLH/@@download/ENCFF465GLH.bed.gz	Other	No		transcription factor	COG3064
+HNF1A	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF240DSS/@@download/ENCFF240DSS.bed.gz	TF	Yes		transcription factor	COG5511
+HNF1A		Preferred	https://www.encodeproject.org/files/ENCFF346SLA/@@download/ENCFF346SLA.bed.gz	TF	Yes		transcription factor	COG5511
+HNF1B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF890HTY/@@download/ENCFF890HTY.bed.gz	TF	Yes		transcription factor	COG2027
+HNF4A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF711YEK/@@download/ENCFF711YEK.bed.gz	TF	Yes		transcription factor	COG1403
+HNF4A		Non-preferred	https://www.encodeproject.org/files/ENCFF808SYK/@@download/ENCFF808SYK.bed.gz	TF	Yes		transcription factor	COG1403
+HNF4G		Non-preferred	https://www.encodeproject.org/files/ENCFF492RBE/@@download/ENCFF492RBE.bed.gz	TF	Yes		transcription factor	COG1403
+HNF4G	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF107CTN/@@download/ENCFF107CTN.bed.gz	TF	Yes		transcription factor	COG1403
+HNRNPH1		Preferred	https://www.encodeproject.org/files/ENCFF055HMB/@@download/ENCFF055HMB.bed.gz	Other		"Part of the hnRNP complex which processes and splices mRNA. Has RNA motif recognition domains, but no apparent DNA binding domains."	"RNA binding protein,transcription factor"	COG3209
+HNRNPK		Preferred	https://www.encodeproject.org/files/ENCFF542LXI/@@download/ENCFF542LXI.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3409
+HNRNPL		Preferred	https://www.encodeproject.org/files/ENCFF163UML/@@download/ENCFF163UML.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG4886
+HNRNPLL		Preferred	https://www.encodeproject.org/files/ENCFF886DRH/@@download/ENCFF886DRH.bed.gz	Other		"Regulates alternative splicing. Has RNA recognition motifs, but no apparent DNA binding domains."	"RNA binding protein,transcription factor"	COG4886
+HNRNPUL1		Preferred	https://www.encodeproject.org/files/ENCFF323QVV/@@download/ENCFF323QVV.bed.gz	Other		"RNA-binding member of hnRNP family. Interpro says the SAP domain is essential for specific DNA binding activity... and COULD BE a DNA-binding motif... Looks like the B30.2/SPRY domain may be involved with protein-protein interactions, of which this gene has many. PMC1422157. Some evidence that it works with BRD7 to repress transcription... IDK... I'm leaning towards Other."	"RNA binding protein,transcription factor"	COG0507
+HOMEZ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF866VHP/@@download/ENCFF866VHP.bed.gz	TF	Yes		transcription factor	COG3064
+HOXA3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF221IVJ/@@download/ENCFF221IVJ.bed.gz	TF	Yes		transcription factor	COG3064
+HOXA5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF097HFR/@@download/ENCFF097HFR.bed.gz	TF	Yes		transcription factor	COG3409
+HOXD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF042QIU/@@download/ENCFF042QIU.bed.gz	TF	Yes		transcription factor	COG3064
+HSF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF932DAC/@@download/ENCFF932DAC.bed.gz	TF	Yes		transcription factor	COG4636
+HSF4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503129&format=file&file=GSM7503129%5FHSF4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG2801
+IKZF1		Preferred	https://www.encodeproject.org/files/ENCFF632RQY/@@download/ENCFF632RQY.bed.gz	TF	Yes		transcription factor	COG2755
+IKZF4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF547PTN/@@download/ENCFF547PTN.bed.gz	TF	Yes		transcription factor	COG1403
+IKZF5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF973SAV/@@download/ENCFF973SAV.bed.gz	TF	Yes		transcription factor	COG0641
+IRF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF174QAR/@@download/ENCFF174QAR.bed.gz	TF	Yes		transcription factor	COG2801
+IRF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF856FVD/@@download/ENCFF856FVD.bed.gz	TF	Yes		transcription factor	COG0629
+IRF3		Preferred	https://www.encodeproject.org/files/ENCFF284LUI/@@download/ENCFF284LUI.bed.gz	TF	Yes		transcription factor	COG2010
+IRF5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF649YZW/@@download/ENCFF649YZW.bed.gz	TF	Yes		transcription factor	COG1972
+ISL2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF608QXN/@@download/ENCFF608QXN.bed.gz	TF	Yes		transcription factor	COG0551
+ISX	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF872DSQ/@@download/ENCFF872DSQ.bed.gz	TF	Yes		transcription factor	COG2761
+JRK	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503130&format=file&file=GSM7503130%5FJRK%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG0582
+JUN	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF355KJO/@@download/ENCFF355KJO.bed.gz	TF	Yes		transcription factor	COG1196
+JUN		Non-preferred	https://www.encodeproject.org/files/ENCFF265UCB/@@download/ENCFF265UCB.bed.gz	TF	Yes		transcription factor	COG1196
+JUND		Non-preferred	https://www.encodeproject.org/files/ENCFF577XUM/@@download/ENCFF577XUM.bed.gz	TF	Yes		transcription factor	COG1196
+JUND		Preferred	https://www.encodeproject.org/files/ENCFF281KZH/@@download/ENCFF281KZH.bed.gz	TF	Yes		transcription factor	COG1196
+KAT2B		Preferred	https://www.encodeproject.org/files/ENCFF461YLX/@@download/ENCFF461YLX.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG0456
+KAT6A	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503131&format=file&file=GSM7503131%5FKAT6A%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1361
+KAT7	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF009BCS/@@download/ENCFF009BCS.bed.gz	Other	Yes*	Chromatin remodeller	transcription factor	COG4469
+KAT8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF688NGY/@@download/ENCFF688NGY.bed.gz	Other	No		transcription factor	COG1716
+KDM1A		Non-preferred	https://www.encodeproject.org/files/ENCFF617QAV/@@download/ENCFF617QAV.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG1231
+KDM1A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF376CNT/@@download/ENCFF376CNT.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG1231
+KDM2A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF649VKX/@@download/ENCFF649VKX.bed.gz	TF	Yes		transcription factor	COG3209
+KDM3A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF151FQM/@@download/ENCFF151FQM.bed.gz	Other	No		transcription factor	COG1670
+KDM4B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF865PLF/@@download/ENCFF865PLF.bed.gz	Other			transcription factor	COG0732
+KDM5A		Preferred	https://www.encodeproject.org/files/ENCFF620WRP/@@download/ENCFF620WRP.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG0086
+KDM5B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF511KOY/@@download/ENCFF511KOY.bed.gz	TF	Yes		"transcription factor,chromatin remodeller"	COG1198
+KDM6A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF291RTF/@@download/ENCFF291RTF.bed.gz	Other			"transcription factor,chromatin remodeller"	COG0457
+USF3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF168XTB/@@download/ENCFF168XTB.bed.gz	TF	Yes		transcription factor	
+KLF11	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF137AWT/@@download/ENCFF137AWT.bed.gz	TF	Yes		transcription factor	COG1413
+KLF12	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF099TJA/@@download/ENCFF099TJA.bed.gz	TF	Yes		transcription factor	COG1403
+KLF13	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF171DFD/@@download/ENCFF171DFD.bed.gz	TF	Yes		transcription factor	COG1403
+KLF15	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503132&format=file&file=GSM7503132%5FKLF15%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+KLF16	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF742BYA/@@download/ENCFF742BYA.bed.gz	TF	Yes		transcription factor	COG1403
+KLF6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF407YHS/@@download/ENCFF407YHS.bed.gz	TF	Yes		transcription factor	COG2207
+KLF9	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF995GJI/@@download/ENCFF995GJI.bed.gz	TF	Yes		transcription factor	COG1403
+KMT2A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF960SAF/@@download/ENCFF960SAF.bed.gz	TF	Yes		transcription factor	COG3210
+KMT2B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF036WCY/@@download/ENCFF036WCY.bed.gz	TF	Yes		"transcription factor,chromatin remodeller"	COG1205
+L3MBTL4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503133&format=file&file=GSM7503133%5FL3MBTL4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0457
+LBX2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF391NQU/@@download/ENCFF391NQU.bed.gz	TF	Yes		transcription factor	COG1961
+LCOR	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF381EWF/@@download/ENCFF381EWF.bed.gz	TF	Yes		transcription factor	COG2963
+LCORL	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF723QWP/@@download/ENCFF723QWP.bed.gz	TF	Yes		transcription factor	COG0582
+LCORL		Non-preferred	https://www.encodeproject.org/files/ENCFF789IAH/@@download/ENCFF789IAH.bed.gz	TF	Yes		transcription factor	COG0582
+LHX6	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503134&format=file&file=GSM7503134%5FLHX6%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+LIN54	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF582HAZ/@@download/ENCFF582HAZ.bed.gz	TF	Yes		transcription factor	COG4886
+LRRFIP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF765MRZ/@@download/ENCFF765MRZ.bed.gz	Other	No		transcription factor	COG1196
+MAF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF201XPX/@@download/ENCFF201XPX.bed.gz	TF			transcription factor	COG3871
+MAFF		Preferred	https://www.encodeproject.org/files/ENCFF643LNZ/@@download/ENCFF643LNZ.bed.gz	TF	Yes		transcription factor	COG2963
+MAFG	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF311PMU/@@download/ENCFF311PMU.bed.gz	TF	Yes		transcription factor	COG1196
+MAFK		Preferred	https://www.encodeproject.org/files/ENCFF259ECH/@@download/ENCFF259ECH.bed.gz	TF	Yes		transcription factor	COG2963
+MAFK		Non-preferred	https://www.encodeproject.org/files/ENCFF458PBB/@@download/ENCFF458PBB.bed.gz	TF	Yes		transcription factor	COG2963
+MATR3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF559BWX/@@download/ENCFF559BWX.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG0457
+MAX		Uncharacterized	https://www.encodeproject.org/files/ENCFF800ZTT/@@download/ENCFF800ZTT.bed.gz	TF	Yes		transcription factor	COG3335
+MAX	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF707KEM/@@download/ENCFF707KEM.bed.gz	TF	Yes		transcription factor	COG3335
+MAX		Preferred	https://www.encodeproject.org/files/ENCFF532JII/@@download/ENCFF532JII.bed.gz	TF	Yes		transcription factor	COG3335
+MAZ		Non-preferred	https://www.encodeproject.org/files/ENCFF978KZX/@@download/ENCFF978KZX.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1198
+MAZ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF535NYU/@@download/ENCFF535NYU.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1198
+MBD1	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF930VNZ/@@download/ENCFF930VNZ.bed.gz	TF	Yes		transcription factor	COG1716
+MBD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF510QJE/@@download/ENCFF510QJE.bed.gz	TF	Yes		transcription factor	COG1716
+MBD4		Preferred	https://www.encodeproject.org/files/ENCFF695SHZ/@@download/ENCFF695SHZ.bed.gz	TF	Yes		transcription factor	COG1403
+MED1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF721ULY/@@download/ENCFF721ULY.bed.gz	Other	No		transcription factor	COG1020
+MED12	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503135&format=file&file=GSM7503135%5FMED12%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1020
+MED13	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF733RMW/@@download/ENCFF733RMW.bed.gz	Other	No		transcription factor	COG5280
+MED13L	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503136&format=file&file=GSM7503136%5FMED13L%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No			COG3210
+MEF2A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF987BRO/@@download/ENCFF987BRO.bed.gz	TF	Yes		transcription factor	COG2801
+MEF2D	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF370PHM/@@download/ENCFF370PHM.bed.gz	TF	Yes		transcription factor	COG4104
+MEIS1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503137&format=file&file=GSM7503137%5FMEIS1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1595
+MEIS2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503138&format=file&file=GSM7503138%5FMEIS2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1960
+MGA	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503139&format=file&file=GSM7503139%5FMGA%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3209
+MIER2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF822MEL/@@download/ENCFF822MEL.bed.gz	Other	No		transcription factor	COG2124
+MIER3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF284RUU/@@download/ENCFF284RUU.bed.gz	Other	No		transcription factor	COG3378
+MIXL1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF808DFD/@@download/ENCFF808DFD.bed.gz	TF	Yes		transcription factor	COG1403
+MLLT10	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF183UEL/@@download/ENCFF183UEL.bed.gz	Other	No		transcription factor	COG3677
+MLX	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF048HPB/@@download/ENCFF048HPB.bed.gz	TF	Yes		transcription factor	COG1317
+MLXIP	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503140&format=file&file=GSM7503140%5FMLXIP%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1196
+MNT		Non-preferred	https://www.encodeproject.org/files/ENCFF649NPR/@@download/ENCFF649NPR.bed.gz	TF	Yes		transcription factor	COG1403
+MNT		Preferred	https://www.encodeproject.org/files/ENCFF624ACI/@@download/ENCFF624ACI.bed.gz	TF	Yes		transcription factor	COG1403
+MNX1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF288SNR/@@download/ENCFF288SNR.bed.gz	TF	Yes		transcription factor	COG2814
+MTA1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF656AKR/@@download/ENCFF656AKR.bed.gz	Other	No		transcription factor	COG1388
+MTA3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF827SNM/@@download/ENCFF827SNM.bed.gz	Other	No		transcription factor	COG3878
+MTF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF562QVL/@@download/ENCFF562QVL.bed.gz	TF	Yes		transcription factor	COG3170
+MTF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF482HXQ/@@download/ENCFF482HXQ.bed.gz	Other	Yes*	Chromatin remodeller	transcription factor	COG1716
+MXD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF828KFT/@@download/ENCFF828KFT.bed.gz	TF	Yes		transcription factor	COG0789
+MXD3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF098WCH/@@download/ENCFF098WCH.bed.gz	TF	Yes		transcription factor	COG1196
+MXD4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF063ZGE/@@download/ENCFF063ZGE.bed.gz	TF	Yes		transcription factor	COG1196
+MXI1		Preferred	https://www.encodeproject.org/files/ENCFF298UBV/@@download/ENCFF298UBV.bed.gz	TF	Yes		transcription factor	COG4372
+MYBL2		Non-preferred	https://www.encodeproject.org/files/ENCFF408FLG/@@download/ENCFF408FLG.bed.gz	TF	Yes		transcription factor	COG1595
+MYBL2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF182JRE/@@download/ENCFF182JRE.bed.gz	TF	Yes		transcription factor	COG1595
+MYC		Preferred	https://www.encodeproject.org/files/ENCFF800JFG/@@download/ENCFF800JFG.bed.gz	TF	Yes		transcription factor	COG0515
+MYNN	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF447QQH/@@download/ENCFF447QQH.bed.gz	TF	Yes		transcription factor	COG3058
+MYRF	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF648BIX/@@download/ENCFF648BIX.bed.gz	TF	Yes		transcription factor	COG2372
+MZF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503141&format=file&file=GSM7503141%5FMZF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0515
+NAIF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF264GUG/@@download/ENCFF264GUG.bed.gz	TF	Yes		transcription factor	COG1196
+NBN		Preferred	https://www.encodeproject.org/files/ENCFF052NNP/@@download/ENCFF052NNP.bed.gz	Other		"Appears to be a cofactor in DNA repair, along with ATM. Other."	transcription factor	COG1716
+NCOA1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503142&format=file&file=GSM7503142%5FNCOA1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4223
+NCOA2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503143&format=file&file=GSM7503143%5FNCOA2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4886
+NCOA5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF390SPG/@@download/ENCFF390SPG.bed.gz	Other	No		transcription factor	COG3064
+NCOR1		Preferred	https://www.encodeproject.org/files/ENCFF337NOK/@@download/ENCFF337NOK.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG1196
+NFAT5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF758KHO/@@download/ENCFF758KHO.bed.gz	TF	Yes		transcription factor	COG0484
+NFATC3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF956GJO/@@download/ENCFF956GJO.bed.gz	TF	Yes		transcription factor	COG4886
+NFE2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF626AMA/@@download/ENCFF626AMA.bed.gz	TF	Yes		transcription factor	COG2433
+NFE2L1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF392LXN/@@download/ENCFF392LXN.bed.gz	TF	Yes		transcription factor	COG2814
+NFE2L2		Preferred	https://www.encodeproject.org/files/ENCFF876OXC/@@download/ENCFF876OXC.bed.gz	TF	Yes		transcription factor	COG1670
+NFIA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF247AAE/@@download/ENCFF247AAE.bed.gz	TF	Yes		transcription factor	COG2124
+NFIB	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503144&format=file&file=GSM7503144%5FNFIB%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3266
+NFIC		Preferred	https://www.encodeproject.org/files/ENCFF226RTJ/@@download/ENCFF226RTJ.bed.gz	TF	Yes		transcription factor	COG0438
+NFIL3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF056WXQ/@@download/ENCFF056WXQ.bed.gz	TF	Yes		transcription factor	COG1196
+NFKB2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF098AHH/@@download/ENCFF098AHH.bed.gz	TF	Yes		transcription factor	COG2814
+NFKBIZ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF868IVM/@@download/ENCFF868IVM.bed.gz	Other	No		transcription factor	COG0477
+NFRKB		Preferred	https://www.encodeproject.org/files/ENCFF252JYE/@@download/ENCFF252JYE.bed.gz	Other	No		transcription factor	COG2208
+NFYA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF799WBQ/@@download/ENCFF799WBQ.bed.gz	TF	Yes		transcription factor	COG3210
+NFYB	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF250THA/@@download/ENCFF250THA.bed.gz	TF	Yes		transcription factor	COG4584
+NFYC	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF666PKI/@@download/ENCFF666PKI.bed.gz	TF	Yes		transcription factor	COG3170
+NKX3-1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF838IXI/@@download/ENCFF838IXI.bed.gz	TF	Yes		transcription factor	COG2963
+NONO		Non-preferred	https://www.encodeproject.org/files/ENCFF422IRH/@@download/ENCFF422IRH.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG2801
+NONO		Preferred	https://www.encodeproject.org/files/ENCFF847WTF/@@download/ENCFF847WTF.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG2801
+NPAS2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503145&format=file&file=GSM7503145%5FNPAS2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0631
+NR0B2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF801BTX/@@download/ENCFF801BTX.bed.gz	Other	No		transcription factor	COG1357
+NR1H2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503146&format=file&file=GSM7503146%5FNR1H2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG2814
+NR2C2		Non-preferred	https://www.encodeproject.org/files/ENCFF687EVI/@@download/ENCFF687EVI.bed.gz	TF	Yes		transcription factor	COG1028
+NR2C2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF525KBT/@@download/ENCFF525KBT.bed.gz	TF	Yes		transcription factor	COG1028
+NR2F1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF743WMC/@@download/ENCFF743WMC.bed.gz	TF	Yes		transcription factor	COG3464
+NR2F1	eGFP	Non-preferred	https://www.encodeproject.org/files/ENCFF460HFX/@@download/ENCFF460HFX.bed.gz	TF	Yes		transcription factor	COG3464
+NR2F2		Preferred	https://www.encodeproject.org/files/ENCFF681WXL/@@download/ENCFF681WXL.bed.gz	TF	Yes		transcription factor	COG0154
+NR2F6		Non-preferred	https://www.encodeproject.org/files/ENCFF529UHN/@@download/ENCFF529UHN.bed.gz	TF	Yes		transcription factor	COG3677
+NR2F6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF597EOO/@@download/ENCFF597EOO.bed.gz	TF	Yes		transcription factor	COG3677
+NR3C1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF733MQF/@@download/ENCFF733MQF.bed.gz	TF	Yes		transcription factor	COG5492
+NR5A1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF304HWM/@@download/ENCFF304HWM.bed.gz	TF	Yes		transcription factor	COG1545
+NRF1		Non-preferred	https://www.encodeproject.org/files/ENCFF785BAI/@@download/ENCFF785BAI.bed.gz	TF	Yes		transcription factor	COG2226
+NRF1		Preferred	https://www.encodeproject.org/files/ENCFF520WIR/@@download/ENCFF520WIR.bed.gz	TF	Yes		transcription factor	COG2226
+NRL	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF789ZJN/@@download/ENCFF789ZJN.bed.gz	TF	Yes		transcription factor	COG3599
+ONECUT1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF759WME/@@download/ENCFF759WME.bed.gz	TF	Yes		transcription factor	COG3620
+ONECUT2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF476NUG/@@download/ENCFF476NUG.bed.gz	TF	Yes		transcription factor	COG1403
+PAF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF404XCS/@@download/ENCFF404XCS.bed.gz	Other			"transcription factor,chromatin remodeller"	COG3378
+PATZ1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF024AEZ/@@download/ENCFF024AEZ.bed.gz	TF	Yes		transcription factor	COG1961
+PAWR	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF610NSO/@@download/ENCFF610NSO.bed.gz	Other	No		transcription factor	COG1196
+PAX8	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503147&format=file&file=GSM7503147%5FPAX8%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0515
+PAXIP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF825TUP/@@download/ENCFF825TUP.bed.gz	Other	No			COG0457
+PBX2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF295AGS/@@download/ENCFF295AGS.bed.gz	TF	Yes		transcription factor	COG3409
+PBX3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503148&format=file&file=GSM7503148%5FPBX3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1309
+PCBP1		Preferred	https://www.encodeproject.org/files/ENCFF884TSX/@@download/ENCFF884TSX.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG1196
+PCBP2		Preferred	https://www.encodeproject.org/files/ENCFF057DYX/@@download/ENCFF057DYX.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG4223
+PEG3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503149&format=file&file=GSM7503149%5FPEG3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG5263
+PHB2		Preferred	https://www.encodeproject.org/files/ENCFF597SCY/@@download/ENCFF597SCY.bed.gz	Other	No		transcription factor	COG3209
+PHF20	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF176BYA/@@download/ENCFF176BYA.bed.gz	TF	Yes		transcription factor	COG0675
+PHF21A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF421PRN/@@download/ENCFF421PRN.bed.gz	TF	Yes		transcription factor	COG1961
+PHF8		Non-preferred	https://www.encodeproject.org/files/ENCFF532RXN/@@download/ENCFF532RXN.bed.gz	Other			"transcription factor,chromatin remodeller,RNA binding protein"	COG3170
+PHF8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF127LBZ/@@download/ENCFF127LBZ.bed.gz	Other			"transcription factor,chromatin remodeller,RNA binding protein"	COG3170
+PHTF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503150&format=file&file=GSM7503150%5FPHTF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG0726
+PITX1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF512NCZ/@@download/ENCFF512NCZ.bed.gz	TF	Yes		transcription factor	COG3064
+PLRG1		Preferred	https://www.encodeproject.org/files/ENCFF251RCG/@@download/ENCFF251RCG.bed.gz	Other		"mRNA splicing complex member, required for splicing initiation."	transcription factor	COG2319
+PLSCR1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF327XJK/@@download/ENCFF327XJK.bed.gz	TF	Yes			COG0247
+POGZ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF464PTM/@@download/ENCFF464PTM.bed.gz	Other	No		transcription factor	COG2870
+POLR2A		Preferred	https://www.encodeproject.org/files/ENCFF505PXD/@@download/ENCFF505PXD.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG3209
+POLR2A		Uncharacterized	https://www.encodeproject.org/files/ENCFF806UQS/@@download/ENCFF806UQS.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG3209
+POLR2A		Uncharacterized	https://www.encodeproject.org/files/ENCFF663LEV/@@download/ENCFF663LEV.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG3209
+POLR2AphosphoS2		Preferred	https://www.encodeproject.org/files/ENCFF400CVS/@@download/ENCFF400CVS.bed.gz	Other	No		"other context,other post-translational modification,transcription factor"	
+POLR2AphosphoS5		Preferred	https://www.encodeproject.org/files/ENCFF483FKZ/@@download/ENCFF483FKZ.bed.gz	Other	No		"other context,other post-translational modification,transcription factor"	
+POLR2G		Preferred	https://www.encodeproject.org/files/ENCFF496CJE/@@download/ENCFF496CJE.bed.gz	Other			"RNA binding protein,transcription factor"	COG2814
+POU2F1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503151&format=file&file=GSM7503151%5FPOU2F1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3210
+PPARG	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF567JIZ/@@download/ENCFF567JIZ.bed.gz	TF	Yes		transcription factor	COG0635
+PRDM10	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF746BIW/@@download/ENCFF746BIW.bed.gz	TF	Yes		transcription factor	COG1198
+PRDM15	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF028CNE/@@download/ENCFF028CNE.bed.gz	TF	Yes		transcription factor	COG3464
+PRDM4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503152&format=file&file=GSM7503152%5FPRDM4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3250
+PREB	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF624VRP/@@download/ENCFF624VRP.bed.gz	TF	Yes		transcription factor	COG2319
+PRMT5	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503153&format=file&file=GSM7503153%5FPRMT5%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other		"Methyltransferase.  Methylates arginines, SUPT5H."	transcription factor	COG0438
+PRPF4		Preferred	https://www.encodeproject.org/files/ENCFF719VLD/@@download/ENCFF719VLD.bed.gz	Other		Spliceosome B complex member.	"RNA binding protein,transcription factor"	COG2319
+PTBP1		Preferred	https://www.encodeproject.org/files/ENCFF793YIO/@@download/ENCFF793YIO.bed.gz	Other		"hnRNP family member, involved in exon skipping, RNA looping, splicing mahinery. Has rna recognition motif, no DNA binding domains."	"RNA binding protein,transcription factor"	COG0534
+RAD21	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF786ZDM/@@download/ENCFF786ZDM.bed.gz	Other	No		transcription factor	COG1783
+RAD21		Non-preferred	https://www.encodeproject.org/files/ENCFF986ECW/@@download/ENCFF986ECW.bed.gz	Other	No		transcription factor	COG1783
+RAD21	eGFP	Uncharacterized	https://www.encodeproject.org/files/ENCFF049KLQ/@@download/ENCFF049KLQ.bed.gz	Other	No		transcription factor	COG1783
+RAD21		Preferred	https://www.encodeproject.org/files/ENCFF171ZXN/@@download/ENCFF171ZXN.bed.gz	Other	No		transcription factor	COG1783
+RAD51		Preferred	https://www.encodeproject.org/files/ENCFF932LVB/@@download/ENCFF932LVB.bed.gz	Other	No		transcription factor	COG0389
+RARA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF051RBF/@@download/ENCFF051RBF.bed.gz	TF	Yes		transcription factor	COG2801
+RARG	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF660XKF/@@download/ENCFF660XKF.bed.gz	TF	Yes		transcription factor	COG1403
+RBAK	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF376YBW/@@download/ENCFF376YBW.bed.gz	TF	Yes		transcription factor	COG4469
+RBFOX2		Preferred	https://www.encodeproject.org/files/ENCFF756RMH/@@download/ENCFF756RMH.bed.gz	Other		"RNA splicing / binding protein. HAs interactions with ~32 proteins. Has rna recognition motif domain, but no clear DNA binding domain."	"RNA binding protein,transcription factor"	COG3266
+RBM22		Preferred	https://www.encodeproject.org/files/ENCFF457BJI/@@download/ENCFF457BJI.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG1652
+RBM39		Preferred	https://www.encodeproject.org/files/ENCFF796LVD/@@download/ENCFF796LVD.bed.gz	Other		"RNA binding protein that plays a role in splicing. Has RNA recognition motif domain, and interactions with several proteins including TFs, but no DNA binding domain."	"RNA binding protein,transcription factor"	COG0724
+RBPJ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF303KJW/@@download/ENCFF303KJW.bed.gz	TF	Yes		transcription factor	COG1600
+RCOR1		Preferred	https://www.encodeproject.org/files/ENCFF110WHS/@@download/ENCFF110WHS.bed.gz	Other	No		transcription factor	COG3409
+RCOR2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF133ULI/@@download/ENCFF133ULI.bed.gz	Other	No		transcription factor	COG3409
+RCOR3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503154&format=file&file=GSM7503154%5FRCOR3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG0457
+RELA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF588ZSF/@@download/ENCFF588ZSF.bed.gz	TF	Yes		transcription factor	COG0747
+RERE	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF283JPC/@@download/ENCFF283JPC.bed.gz	Other	No		transcription factor	COG0006
+REST		Non-preferred	https://www.encodeproject.org/files/ENCFF128XEY/@@download/ENCFF128XEY.bed.gz	TF	Yes		"transcription factor,chromatin remodeller"	COG3210
+REST		Preferred	https://www.encodeproject.org/files/ENCFF227COI/@@download/ENCFF227COI.bed.gz	TF	Yes		"transcription factor,chromatin remodeller"	COG3210
+REV3L	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503155&format=file&file=GSM7503155%5FREV3L%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other		POLZ subunit		COG2801
+RFX1		Preferred	https://www.encodeproject.org/files/ENCFF881BZS/@@download/ENCFF881BZS.bed.gz	TF	Yes		transcription factor	COG4886
+RFX3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF388AKT/@@download/ENCFF388AKT.bed.gz	TF	Yes		transcription factor	COG1483
+RFX5		Preferred	https://www.encodeproject.org/files/ENCFF170RLS/@@download/ENCFF170RLS.bed.gz	TF	Yes		transcription factor	COG0640
+RFXANK	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF731KLY/@@download/ENCFF731KLY.bed.gz	Other	No		transcription factor	COG2931
+RFXAP	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF985JDC/@@download/ENCFF985JDC.bed.gz	Other	No		transcription factor	COG0508
+RNF2		Preferred	https://www.encodeproject.org/files/ENCFF052BXQ/@@download/ENCFF052BXQ.bed.gz	Other	No		"transcription factor,chromatin remodeller"	COG1403
+OBI1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF216WUU/@@download/ENCFF216WUU.bed.gz	Other	No		transcription factor	
+RORA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF951EMJ/@@download/ENCFF951EMJ.bed.gz	TF	Yes		transcription factor	COG0517
+RREB1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF397FIY/@@download/ENCFF397FIY.bed.gz	TF	Yes		transcription factor	COG1403
+RXRA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF672JLN/@@download/ENCFF672JLN.bed.gz	TF	Yes		transcription factor	COG1403
+RXRB	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF055PGX/@@download/ENCFF055PGX.bed.gz	TF	Yes		transcription factor	COG3677
+SAFB2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF867CMD/@@download/ENCFF867CMD.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG2369
+SALL1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503156&format=file&file=GSM7503156%5FSALL1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3170
+SALL2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503157&format=file&file=GSM7503157%5FSALL2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1075
+SAP130	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF557KBX/@@download/ENCFF557KBX.bed.gz	Other			transcription factor	COG3209
+SATB2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF231FHP/@@download/ENCFF231FHP.bed.gz	TF	Yes		transcription factor	COG2801
+SCMH1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503158&format=file&file=GSM7503158%5FSCMH1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG0726
+SETDB1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF186ELR/@@download/ENCFF186ELR.bed.gz	Other	Yes*	Chromatin remodeller	transcription factor	COG0789
+SFPQ		Non-preferred	https://www.encodeproject.org/files/ENCFF508RFK/@@download/ENCFF508RFK.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG5295
+SFPQ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF655NBG/@@download/ENCFF655NBG.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG5295
+SIN3A		Preferred	https://www.encodeproject.org/files/ENCFF803PTU/@@download/ENCFF803PTU.bed.gz	Other	No		transcription factor	COG3170
+SIN3B		Preferred	https://www.encodeproject.org/files/ENCFF817MLD/@@download/ENCFF817MLD.bed.gz	Other	No		transcription factor	COG5635
+SIX1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF885NXZ/@@download/ENCFF885NXZ.bed.gz	TF	Yes		transcription factor	COG3415
+SIX4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF832KYL/@@download/ENCFF832KYL.bed.gz	TF	Yes		transcription factor	COG3266
+SIX5	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503159&format=file&file=GSM7503159%5FSIX5%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3210
+SKI		Preferred	https://www.encodeproject.org/files/ENCFF405UGF/@@download/ENCFF405UGF.bed.gz	TF	Yes		transcription factor	COG0535
+SLC30A9	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503160&format=file&file=GSM7503160%5FSLC30A9%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG0053
+SMAD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF224UON/@@download/ENCFF224UON.bed.gz	TF	Yes		transcription factor	COG3464
+SMAD3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF514EHR/@@download/ENCFF514EHR.bed.gz	TF	Yes		transcription factor	COG2801
+SMAD4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF828ZCI/@@download/ENCFF828ZCI.bed.gz	TF	Yes		transcription factor	COG1961
+SMAD7	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503161&format=file&file=GSM7503161%5FSMAD7%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1470
+SMAD9	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF707VDL/@@download/ENCFF707VDL.bed.gz	TF	Yes		transcription factor	COG2207
+SMARCC2		Preferred	https://www.encodeproject.org/files/ENCFF201OTL/@@download/ENCFF201OTL.bed.gz	Other	No		transcription factor	COG5164
+SMARCE1		Preferred	https://www.encodeproject.org/files/ENCFF176QWL/@@download/ENCFF176QWL.bed.gz	Other	No		transcription factor	COG3170
+SMC3		Preferred	https://www.encodeproject.org/files/ENCFF492IMA/@@download/ENCFF492IMA.bed.gz	Other	No		transcription factor	COG1196
+SNAI1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF713BCF/@@download/ENCFF713BCF.bed.gz	TF	Yes		transcription factor	COG1996
+SNAPC4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF003YHG/@@download/ENCFF003YHG.bed.gz	TF	Yes		transcription factor	COG3170
+SNRNP70		Preferred	https://www.encodeproject.org/files/ENCFF310GVX/@@download/ENCFF310GVX.bed.gz	Other		"Spliceosomal complex member. RNA recognition motif domain, interaction with several proteins, no DNA binding domain."	"RNA binding protein,transcription factor"	COG2801
+SOX13	eGFP	Non-preferred	https://www.encodeproject.org/files/ENCFF935NRC/@@download/ENCFF935NRC.bed.gz	TF	Yes		transcription factor	COG4104
+SOX13		Non-preferred	https://www.encodeproject.org/files/ENCFF972VWQ/@@download/ENCFF972VWQ.bed.gz	TF	Yes		transcription factor	COG4104
+SOX13	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF344LWH/@@download/ENCFF344LWH.bed.gz	TF	Yes		transcription factor	COG4104
+SOX18	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF139MAW/@@download/ENCFF139MAW.bed.gz	TF	Yes		transcription factor	COG1595
+SOX5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF572TDN/@@download/ENCFF572TDN.bed.gz	TF	Yes		transcription factor	COG3170
+SOX6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF677LEF/@@download/ENCFF677LEF.bed.gz	TF	Yes		transcription factor	COG3409
+SOX6		Non-preferred	https://www.encodeproject.org/files/ENCFF224ACO/@@download/ENCFF224ACO.bed.gz	TF	Yes		transcription factor	COG3409
+SP1		Preferred	https://www.encodeproject.org/files/ENCFF316YEL/@@download/ENCFF316YEL.bed.gz	TF	Yes		transcription factor	COG3266
+SP1	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF022SPK/@@download/ENCFF022SPK.bed.gz	TF	Yes		transcription factor	COG3266
+SP110	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503162&format=file&file=GSM7503162%5FSP110%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+SP140L	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF452TPH/@@download/ENCFF452TPH.bed.gz	TF	Yes		transcription factor	COG1961
+SP2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF766ULD/@@download/ENCFF766ULD.bed.gz	TF	Yes		transcription factor	COG3293
+SP2		Non-preferred	https://www.encodeproject.org/files/ENCFF962KEP/@@download/ENCFF962KEP.bed.gz	TF	Yes		transcription factor	COG3293
+SP5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF997EZO/@@download/ENCFF997EZO.bed.gz	TF	Yes		transcription factor	COG1403
+SPEN	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF505DKE/@@download/ENCFF505DKE.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG0582
+SRF		Preferred	https://www.encodeproject.org/files/ENCFF299ZUK/@@download/ENCFF299ZUK.bed.gz	TF	Yes		transcription factor	COG0810
+SRSF1		Preferred	https://www.encodeproject.org/files/ENCFF321UQK/@@download/ENCFF321UQK.bed.gz	Other		"Spliceosomal complex member. Multiple RNA recognition domains, protein interaction domain with SAFB1, no DNA binding domain."	"RNA binding protein,transcription factor"	COG0724
+SRSF4		Preferred	https://www.encodeproject.org/files/ENCFF427GBB/@@download/ENCFF427GBB.bed.gz	Other		"Spliceosomal complex member, Multiple RNA recognition domains, no DNA binding domain."	"RNA binding protein,transcription factor"	COG0724
+SRSF9		Preferred	https://www.encodeproject.org/files/ENCFF342SIN/@@download/ENCFF342SIN.bed.gz	Other		"Spliceosomal complex member. Note that it explicitly supresses the splicing of MAPT exon 10. Multiple RNA recognition domains, domain speifically interacts with SAFB1. No DNA Binding domain."	"RNA binding protein,transcription factor"	COG0724
+SRY	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503163&format=file&file=GSM7503163%5FSRY%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+SSRP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF712IPK/@@download/ENCFF712IPK.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3170
+STAG1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF514OVO/@@download/ENCFF514OVO.bed.gz	Other	No		transcription factor	COG5635
+STAT5A	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503164&format=file&file=GSM7503164%5FSTAT5A%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1309
+STAT5B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF734DQW/@@download/ENCFF734DQW.bed.gz	TF	Yes		transcription factor	COG0846
+STAT6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF009YMJ/@@download/ENCFF009YMJ.bed.gz	TF	Yes		transcription factor	COG0463
+SUZ12		Preferred	https://www.encodeproject.org/files/ENCFF482HFQ/@@download/ENCFF482HFQ.bed.gz	Other	No		"transcription factor,chromatin remodeller,RNA binding protein"	COG3170
+SYNCRIP		Preferred	https://www.encodeproject.org/files/ENCFF449IXP/@@download/ENCFF449IXP.bed.gz	Other		"hnRNP complex member, involved in splicing. Multiple RNA recognition motif domains. Domains speifically interacting with APOBEC1 and SMN. No DNA binding domain."	"RNA binding protein,transcription factor"	COG0724
+TAF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF859JSG/@@download/ENCFF859JSG.bed.gz	Other	No		transcription factor	COG1002
+TAF1		Non-preferred	https://www.encodeproject.org/files/ENCFF793EAH/@@download/ENCFF793EAH.bed.gz	Other	No		transcription factor	COG1002
+TAF15		Preferred	https://www.encodeproject.org/files/ENCFF889SKN/@@download/ENCFF889SKN.bed.gz	Other		"Binds RNA and ssDNA. Has a RanBP2-type Zinc Finger domain, involved in RNA binding and possibly protein interactions. Has RNA recognition motif domain, no clear interactino domains or DNA binding domains."	"RNA binding protein,transcription factor"	COG1525
+TARDBP		Preferred	https://www.encodeproject.org/files/ENCFF978CQE/@@download/ENCFF978CQE.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG0724
+TBL1XR1		Preferred	https://www.encodeproject.org/files/ENCFF694AOE/@@download/ENCFF694AOE.bed.gz	Other			transcription factor	COG2319
+TBP	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF935CJP/@@download/ENCFF935CJP.bed.gz	TF	Yes		transcription factor	COG3064
+TBP		Non-preferred	https://www.encodeproject.org/files/ENCFF146NGT/@@download/ENCFF146NGT.bed.gz	TF	Yes		transcription factor	COG3064
+TBX2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF162BJS/@@download/ENCFF162BJS.bed.gz	TF	Yes		transcription factor	COG2755
+TBX3		Non-preferred	https://www.encodeproject.org/files/ENCFF279ROV/@@download/ENCFF279ROV.bed.gz	TF	Yes		transcription factor	COG2755
+TBX3		Preferred	https://www.encodeproject.org/files/ENCFF757KHZ/@@download/ENCFF757KHZ.bed.gz	TF	Yes		transcription factor	COG2755
+TCF12		Preferred	https://www.encodeproject.org/files/ENCFF518GBI/@@download/ENCFF518GBI.bed.gz	TF	Yes		transcription factor	COG3266
+TCF3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF825QLF/@@download/ENCFF825QLF.bed.gz	TF	Yes		transcription factor	COG3729
+TCF7		Preferred	https://www.encodeproject.org/files/ENCFF646DDZ/@@download/ENCFF646DDZ.bed.gz	TF	Yes		transcription factor	COG1595
+TCF7L2		Non-preferred	https://www.encodeproject.org/files/ENCFF407LPM/@@download/ENCFF407LPM.bed.gz	TF	Yes		transcription factor	COG1595
+TCF7L2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF276DAQ/@@download/ENCFF276DAQ.bed.gz	TF	Yes		transcription factor	COG1595
+TEAD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF715HFB/@@download/ENCFF715HFB.bed.gz	TF	Yes		transcription factor	COG0484
+TEAD2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503165&format=file&file=GSM7503165%5FTEAD2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3409
+TEAD3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF467MXY/@@download/ENCFF467MXY.bed.gz	TF	Yes		transcription factor	COG0388
+TEAD4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF392AXI/@@download/ENCFF392AXI.bed.gz	TF	Yes		transcription factor	COG2230
+TEF	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF019SUK/@@download/ENCFF019SUK.bed.gz	TF	Yes		transcription factor	COG1196
+TFAP4		Non-preferred	https://www.encodeproject.org/files/ENCFF129CAQ/@@download/ENCFF129CAQ.bed.gz	TF	Yes		transcription factor	COG1196
+TFAP4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF831LHT/@@download/ENCFF831LHT.bed.gz	TF	Yes		transcription factor	COG1196
+TFDP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF260VQA/@@download/ENCFF260VQA.bed.gz	TF	Yes		transcription factor	COG2865
+TFDP2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF632WZL/@@download/ENCFF632WZL.bed.gz	TF	Yes		transcription factor	COG0457
+TFE3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF911OIW/@@download/ENCFF911OIW.bed.gz	TF	Yes		transcription factor	COG1917
+TGIF2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF584UVU/@@download/ENCFF584UVU.bed.gz	TF	Yes		transcription factor	COG2135
+THAP1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503166&format=file&file=GSM7503166%5FTHAP1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4372
+THAP11	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF397AJQ/@@download/ENCFF397AJQ.bed.gz	TF	Yes		transcription factor	COG3064
+THAP8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF978LWA/@@download/ENCFF978LWA.bed.gz	TF	Yes		transcription factor	COG1403
+THAP9	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF573HLA/@@download/ENCFF573HLA.bed.gz	TF	Yes		transcription factor	COG2814
+THRA	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF270VIF/@@download/ENCFF270VIF.bed.gz	TF	Yes		transcription factor	COG2814
+THRB	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF013IAW/@@download/ENCFF013IAW.bed.gz	TF	Yes		transcription factor	COG3677
+TIGD3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF638OVC/@@download/ENCFF638OVC.bed.gz	TF	Yes		transcription factor	COG1396
+TIGD6	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF020JNK/@@download/ENCFF020JNK.bed.gz	TF	Yes		transcription factor	COG2197
+TOE1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF013QQG/@@download/ENCFF013QQG.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG0810
+TOE1		Non-preferred	https://www.encodeproject.org/files/ENCFF729YSB/@@download/ENCFF729YSB.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG0810
+TP53	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF701DTE/@@download/ENCFF701DTE.bed.gz	TF	Yes		transcription factor	COG4638
+TRAFD1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF967GSO/@@download/ENCFF967GSO.bed.gz	TF	Yes		transcription factor	COG1403
+TRIM22		Preferred	https://www.encodeproject.org/files/ENCFF922DRK/@@download/ENCFF922DRK.bed.gz	Other	No		transcription factor	COG1403
+TRIM24	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503167&format=file&file=GSM7503167%5FTRIM24%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1403
+TSC22D2	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503168&format=file&file=GSM7503168%5FTSC22D2%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG3266
+TSC22D2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF640ZVQ/@@download/ENCFF640ZVQ.bed.gz	Other	No		transcription factor	COG3266
+TTF1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503169&format=file&file=GSM7503169%5FTTF1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3464
+U2AF1		Preferred	https://www.encodeproject.org/files/ENCFF057MJF/@@download/ENCFF057MJF.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG1403
+U2AF2		Preferred	https://www.encodeproject.org/files/ENCFF419PQH/@@download/ENCFF419PQH.bed.gz	Other		Involved in RNA splicing complex. RNA recognition motif domains. Domain for interaction with PRPF19. No clear DNa binding domain.	"RNA binding protein,transcription factor"	COG0724
+UBTF	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF056VDP/@@download/ENCFF056VDP.bed.gz	Other	No		transcription factor	COG3935
+USF1		Non-preferred	https://www.encodeproject.org/files/ENCFF251RJB/@@download/ENCFF251RJB.bed.gz	TF	Yes		transcription factor	COG1961
+USF1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF048LKP/@@download/ENCFF048LKP.bed.gz	TF	Yes		transcription factor	COG1961
+USF2	FLAG	Non-preferred	https://www.encodeproject.org/files/ENCFF759SUT/@@download/ENCFF759SUT.bed.gz	TF	Yes		transcription factor	COG1196
+USF2		Preferred	https://www.encodeproject.org/files/ENCFF146UBH/@@download/ENCFF146UBH.bed.gz	TF	Yes		transcription factor	COG1196
+WIZ	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF720IGS/@@download/ENCFF720IGS.bed.gz	TF	Yes		transcription factor	COG0247
+XBP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF144DWU/@@download/ENCFF144DWU.bed.gz	TF	Yes		transcription factor	COG2963
+XRCC5		Preferred	https://www.encodeproject.org/files/ENCFF305SZV/@@download/ENCFF305SZV.bed.gz	Other		"Also called CTCBF. Has leucine zipper domain, suggesting sequence specific DNA binding. Involved in DNA ds break repair. EEXXXDL motif interacts with PRKDC to effect DNA repair. With APEX1, acts as a negative regulator of transcription."	"RNA binding protein,transcription factor"	COG2304
+YBX1		Preferred	https://www.encodeproject.org/files/ENCFF813SPM/@@download/ENCFF813SPM.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1278
+YEATS2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF492KIV/@@download/ENCFF492KIV.bed.gz	Other	No		transcription factor	COG1388
+YEATS4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF269IHN/@@download/ENCFF269IHN.bed.gz	Other	No		transcription factor	COG1196
+ZBED4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF888EIP/@@download/ENCFF888EIP.bed.gz	TF	Yes		transcription factor	COG1403
+ZBED5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF733WWA/@@download/ENCFF733WWA.bed.gz	TF	Yes		transcription factor	COG3706
+ZBTB1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF345UAC/@@download/ENCFF345UAC.bed.gz	TF	Yes		transcription factor	COG1539
+ZBTB10	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF095JZV/@@download/ENCFF095JZV.bed.gz	TF	Yes		transcription factor	COG0675
+ZBTB12	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503170&format=file&file=GSM7503170%5FZBTB12%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1996
+ZBTB14	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF072ENL/@@download/ENCFF072ENL.bed.gz	TF	Yes		transcription factor	COG0675
+ZBTB21	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF347JXF/@@download/ENCFF347JXF.bed.gz	TF	Yes		transcription factor	COG1198
+ZBTB22	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503171&format=file&file=GSM7503171%5FZBTB22%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1716
+ZBTB24	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF702ULZ/@@download/ENCFF702ULZ.bed.gz	TF	Yes		transcription factor	COG3464
+ZBTB25	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF398WWD/@@download/ENCFF398WWD.bed.gz	TF	Yes		transcription factor	COG1309
+ZBTB26	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF358WAV/@@download/ENCFF358WAV.bed.gz	TF	Yes		transcription factor	COG3464
+ZBTB3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF972RKU/@@download/ENCFF972RKU.bed.gz	TF	Yes		transcription factor	COG3321
+ZBTB33		Non-preferred	https://www.encodeproject.org/files/ENCFF798PND/@@download/ENCFF798PND.bed.gz	TF	Yes		transcription factor	COG5512
+ZBTB33		Preferred	https://www.encodeproject.org/files/ENCFF037RRM/@@download/ENCFF037RRM.bed.gz	TF	Yes		transcription factor	COG5512
+ZBTB33	FLAG	Uncharacterized	https://www.encodeproject.org/files/ENCFF982XKW/@@download/ENCFF982XKW.bed.gz	TF	Yes		transcription factor	COG5512
+ZBTB37	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF152JUI/@@download/ENCFF152JUI.bed.gz	TF	Yes		transcription factor	COG2865
+ZBTB38	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF675MHC/@@download/ENCFF675MHC.bed.gz	TF	Yes		transcription factor	COG0456
+ZBTB39	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF036DSO/@@download/ENCFF036DSO.bed.gz	TF	Yes		transcription factor	COG3880
+ZBTB4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF628ORL/@@download/ENCFF628ORL.bed.gz	TF	Yes		transcription factor	COG3170
+ZBTB40		Preferred	https://www.encodeproject.org/files/ENCFF195FFN/@@download/ENCFF195FFN.bed.gz	TF	Yes		transcription factor	COG0457
+ZBTB42	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF237WOL/@@download/ENCFF237WOL.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB43	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF499KOY/@@download/ENCFF499KOY.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB44	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF173WCV/@@download/ENCFF173WCV.bed.gz	TF	Yes		transcription factor	COG3464
+ZBTB46	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF995QXT/@@download/ENCFF995QXT.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB47	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503172&format=file&file=GSM7503172%5FZBTB47%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+ZBTB49	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF586SMO/@@download/ENCFF586SMO.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB7A		Preferred	https://www.encodeproject.org/files/ENCFF771MKA/@@download/ENCFF771MKA.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB7B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF033TLV/@@download/ENCFF033TLV.bed.gz	TF	Yes		transcription factor	COG1403
+ZBTB8A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF659VBS/@@download/ENCFF659VBS.bed.gz	TF	Yes		transcription factor	COG1403
+ZC3H4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF035JQZ/@@download/ENCFF035JQZ.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3064
+ZC3H8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF710WEN/@@download/ENCFF710WEN.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG0827
+TUT4	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503173&format=file&file=GSM7503173%5FZCCHC11%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		"RNA binding protein,transcription factor"	
+TUT4	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF748PEB/@@download/ENCFF748PEB.bed.gz	Other	No		"RNA binding protein,transcription factor"	
+ZFAT	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503174&format=file&file=GSM7503174%5FZFAT%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3383
+ZFHX3	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503175&format=file&file=GSM7503175%5FZFHX3%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3210
+ZFP1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF317DBA/@@download/ENCFF317DBA.bed.gz	TF	Yes		transcription factor	COG2963
+ZFP14	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF702UPM/@@download/ENCFF702UPM.bed.gz	TF	Yes		transcription factor	COG3677
+ZFP36		Preferred	https://www.encodeproject.org/files/ENCFF660SCE/@@download/ENCFF660SCE.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG3791
+ZFP36L2	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF743BHX/@@download/ENCFF743BHX.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG5297
+ZFP37	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF148XUP/@@download/ENCFF148XUP.bed.gz	TF	Yes		transcription factor	COG1961
+ZFP41	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF833OHI/@@download/ENCFF833OHI.bed.gz	TF	Yes		transcription factor	COG1198
+ZFP62	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF428YYT/@@download/ENCFF428YYT.bed.gz	TF	Yes		transcription factor	COG3677
+ZFP64	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF895ZWZ/@@download/ENCFF895ZWZ.bed.gz	TF	Yes		transcription factor	COG1064
+ZFP82	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF927WNG/@@download/ENCFF927WNG.bed.gz	TF	Yes		transcription factor	COG3460
+ZFP90	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503176&format=file&file=GSM7503176%5FZFP90%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG2801
+ZFP91	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503177&format=file&file=GSM7503177%5FZFP91%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZFX	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF098VWY/@@download/ENCFF098VWY.bed.gz	TF	Yes		transcription factor	COG1598
+ZFY	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF968XPF/@@download/ENCFF968XPF.bed.gz	TF	Yes		transcription factor	COG1403
+ZGLP1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503178&format=file&file=GSM7503178%5FZGLP1%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1040
+ZGPAT	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF329HLR/@@download/ENCFF329HLR.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG1196
+ZHX2		Preferred	https://www.encodeproject.org/files/ENCFF556OVK/@@download/ENCFF556OVK.bed.gz	TF	Yes		transcription factor	COG4974
+ZHX3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF982WOX/@@download/ENCFF982WOX.bed.gz	TF	Yes		transcription factor	COG1475
+ZIK1	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF149DFX/@@download/ENCFF149DFX.bed.gz	TF	Yes		transcription factor	COG1359
+ZIM2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503179&format=file&file=GSM7503179%5FZIM2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+ZKSCAN1		Preferred	https://www.encodeproject.org/files/ENCFF050IGN/@@download/ENCFF050IGN.bed.gz	TF	Yes		transcription factor	COG3677
+ZKSCAN5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF648UYI/@@download/ENCFF648UYI.bed.gz	TF	Yes		transcription factor	COG0484
+ZKSCAN8	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF796GOO/@@download/ENCFF796GOO.bed.gz	TF	Yes		transcription factor	COG5512
+ZMAT3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF981WJF/@@download/ENCFF981WJF.bed.gz	Other	No		"RNA binding protein,transcription factor"	COG1716
+ZMAT5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF079GRV/@@download/ENCFF079GRV.bed.gz	Other	No		transcription factor	COG3677
+ZMYM2	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503180&format=file&file=GSM7503180%5FZMYM2%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG0484
+ZMYM3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF128YWI/@@download/ENCFF128YWI.bed.gz	Other	No		transcription factor	COG0437
+ZMYM3		Non-preferred	https://www.encodeproject.org/files/ENCFF177JJB/@@download/ENCFF177JJB.bed.gz	Other	No		transcription factor	COG0437
+ZMYM4	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503181&format=file&file=GSM7503181%5FZMYM4%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No			COG1579
+ZNF10	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF696UAH/@@download/ENCFF696UAH.bed.gz	TF	Yes		transcription factor	COG3293
+ZNF101	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF719YFZ/@@download/ENCFF719YFZ.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF12	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF842COU/@@download/ENCFF842COU.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF121	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF817UOJ/@@download/ENCFF817UOJ.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF124	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF359JWK/@@download/ENCFF359JWK.bed.gz	TF	Yes		transcription factor	COG3210
+ZNF138	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF429RZD/@@download/ENCFF429RZD.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF140	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503182&format=file&file=GSM7503182%5FZNF140%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF142	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF193QNN/@@download/ENCFF193QNN.bed.gz	TF	Yes		transcription factor	COG1452
+ZNF143	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF764XBK/@@download/ENCFF764XBK.bed.gz	TF	Yes		transcription factor	COG1917
+ZNF148	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503183&format=file&file=GSM7503183%5FZNF148%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+ZNF160	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503184&format=file&file=GSM7503184%5FZNF160%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF17	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF855DRG/@@download/ENCFF855DRG.bed.gz	TF	Yes		transcription factor	COG3464
+ZNF18	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503185&format=file&file=GSM7503185%5FZNF18%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF180	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF745TIW/@@download/ENCFF745TIW.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF20	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF950PRR/@@download/ENCFF950PRR.bed.gz	TF	Yes		transcription factor	COG3039
+ZNF205	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF482IUF/@@download/ENCFF482IUF.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF207		Preferred	https://www.encodeproject.org/files/ENCFF967UKB/@@download/ENCFF967UKB.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF217	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF696RIZ/@@download/ENCFF696RIZ.bed.gz	TF	Yes		transcription factor	COG0484
+ZNF219	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503186&format=file&file=GSM7503186%5FZNF219%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0484
+ZNF222	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503188&format=file&file=GSM7503188%5FZNF222%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0789
+ZNF224	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF635RWF/@@download/ENCFF635RWF.bed.gz	TF	Yes		transcription factor	COG1670
+ZNF225	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF317ZCM/@@download/ENCFF317ZCM.bed.gz	TF	Yes		transcription factor	COG3832
+ZNF230	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF718FEV/@@download/ENCFF718FEV.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF232	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF394XIE/@@download/ENCFF394XIE.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF234	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF104XLA/@@download/ENCFF104XLA.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF235	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503191&format=file&file=GSM7503191%5FZNF235%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3311
+ZNF24		Preferred	https://www.encodeproject.org/files/ENCFF986VHE/@@download/ENCFF986VHE.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF24		Non-preferred	https://www.encodeproject.org/files/ENCFF204MSD/@@download/ENCFF204MSD.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF25	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF543VDT/@@download/ENCFF543VDT.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF251	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503195&format=file&file=GSM7503195%5FZNF251%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF256	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF612NCS/@@download/ENCFF612NCS.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF260	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF291TYB/@@download/ENCFF291TYB.bed.gz	TF	Yes		transcription factor	COG1961
+ZNF263	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF236FRR/@@download/ENCFF236FRR.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF264	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF027ANT/@@download/ENCFF027ANT.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF274	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF243RMX/@@download/ENCFF243RMX.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF275	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503199&format=file&file=GSM7503199%5FZNF275%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0675
+ZNF276	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF234KOS/@@download/ENCFF234KOS.bed.gz	TF	Yes		transcription factor	COG0455
+ZNF280B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF763FLS/@@download/ENCFF763FLS.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF280C	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503203&format=file&file=GSM7503203%5FZNF280C%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0484
+ZNF280D	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF979JSC/@@download/ENCFF979JSC.bed.gz	TF	Yes		transcription factor	COG1198
+ZNF281	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF497XRB/@@download/ENCFF497XRB.bed.gz	TF	Yes		transcription factor	COG3170
+ZNF282		Preferred	https://www.encodeproject.org/files/ENCFF637KAI/@@download/ENCFF637KAI.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF284	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503207&format=file&file=GSM7503207%5FZNF284%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF296	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF959TJF/@@download/ENCFF959TJF.bed.gz	TF	Yes		transcription factor	COG0484
+ZNF3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF358VSZ/@@download/ENCFF358VSZ.bed.gz	TF	Yes		transcription factor	COG0494
+ZNF30	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF391RHE/@@download/ENCFF391RHE.bed.gz	TF	Yes		transcription factor	COG3091
+ZNF317	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF051JQT/@@download/ENCFF051JQT.bed.gz	TF	Yes		transcription factor	COG0846
+ZNF318	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF206IFJ/@@download/ENCFF206IFJ.bed.gz	TF	Yes		transcription factor	COG3115
+ZNF326	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF496AGX/@@download/ENCFF496AGX.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG3951
+ZNF329	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503211&format=file&file=GSM7503211%5FZNF329%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3464
+ZNF331	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF333ZPM/@@download/ENCFF333ZPM.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF333	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF740MCS/@@download/ENCFF740MCS.bed.gz	TF	Yes		transcription factor	COG2442
+ZNF334	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503215&format=file&file=GSM7503215%5FZNF334%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3440
+ZNF335	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF349JFK/@@download/ENCFF349JFK.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF337	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF457DKJ/@@download/ENCFF457DKJ.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF33A	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF408VEZ/@@download/ENCFF408VEZ.bed.gz	TF	Yes		transcription factor	COG1961
+ZNF33B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF643NJV/@@download/ENCFF643NJV.bed.gz	TF	Yes		transcription factor	COG1051
+ZNF34	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF175VWS/@@download/ENCFF175VWS.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF343	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF956GVV/@@download/ENCFF956GVV.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF350	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF094QEU/@@download/ENCFF094QEU.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF362	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF136MFE/@@download/ENCFF136MFE.bed.gz	TF	Yes		transcription factor	COG3209
+ZNF367	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF822NPN/@@download/ENCFF822NPN.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF382	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF158ZLL/@@download/ENCFF158ZLL.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF383	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF689AMX/@@download/ENCFF689AMX.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF384		Preferred	https://www.encodeproject.org/files/ENCFF449KJR/@@download/ENCFF449KJR.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF407	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF373JGX/@@download/ENCFF373JGX.bed.gz	TF	Yes		transcription factor	COG3209
+ZNF414	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF933JZI/@@download/ENCFF933JZI.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF430	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503219&format=file&file=GSM7503219%5FZNF430%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1396
+ZNF431	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503223&format=file&file=GSM7503223%5FZNF431%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1961
+ZNF432	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF046FVA/@@download/ENCFF046FVA.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF439	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503228&format=file&file=GSM7503228%5FZNF439%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF44	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF512PIO/@@download/ENCFF512PIO.bed.gz	TF	Yes		transcription factor	COG0286
+ZNF441	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF995IVE/@@download/ENCFF995IVE.bed.gz	TF	Yes		transcription factor	COG2814
+ZNF446	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF866GKQ/@@download/ENCFF866GKQ.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF45	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503232&format=file&file=GSM7503232%5FZNF45%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF451	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF655ABJ/@@download/ENCFF655ABJ.bed.gz	TF	Yes		transcription factor	COG0582
+ZNF460	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF362HXG/@@download/ENCFF362HXG.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF48	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF833GIB/@@download/ENCFF833GIB.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF483	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF727IPR/@@download/ENCFF727IPR.bed.gz	TF	Yes		transcription factor	COG3012
+ZNF484	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF342SJZ/@@download/ENCFF342SJZ.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF485	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF497ADN/@@download/ENCFF497ADN.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF490	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF088FSM/@@download/ENCFF088FSM.bed.gz	TF	Yes		transcription factor	COG3791
+ZNF501	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF355NOU/@@download/ENCFF355NOU.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF503	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF965ADE/@@download/ENCFF965ADE.bed.gz	TF	Yes		transcription factor	COG1075
+ZNF510	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF573VMV/@@download/ENCFF573VMV.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF511	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF612MNU/@@download/ENCFF612MNU.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF512	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF860GTX/@@download/ENCFF860GTX.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF512B	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF898BBA/@@download/ENCFF898BBA.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF513	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF422MYG/@@download/ENCFF422MYG.bed.gz	TF	Yes		transcription factor	COG3464
+ZNF526	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF556HNR/@@download/ENCFF556HNR.bed.gz	TF	Yes		transcription factor	COG0484
+ZNF528	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503236&format=file&file=GSM7503236%5FZNF528%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4636
+ZNF529	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503240&format=file&file=GSM7503240%5FZNF529%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF530	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF816SRV/@@download/ENCFF816SRV.bed.gz	TF	Yes		transcription factor	COG2814
+ZNF543	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF882RAQ/@@download/ENCFF882RAQ.bed.gz	TF	Yes		transcription factor	COG1162
+ZNF544	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503244&format=file&file=GSM7503244%5FZNF544%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0789
+ZNF546	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503248&format=file&file=GSM7503248%5FZNF546%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3157
+ZNF547	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF907JYN/@@download/ENCFF907JYN.bed.gz	TF	Yes		transcription factor	COG2814
+ZNF548	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF920CNM/@@download/ENCFF920CNM.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF549	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF430MJE/@@download/ENCFF430MJE.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF550	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF731WIR/@@download/ENCFF731WIR.bed.gz	TF	Yes		transcription factor	COG0662
+ZNF552	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503251&format=file&file=GSM7503251%5FZNF552%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3311
+ZNF556	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF922AIE/@@download/ENCFF922AIE.bed.gz	TF	Yes		transcription factor	COG2318
+ZNF557	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF259TEE/@@download/ENCFF259TEE.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF558	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503253&format=file&file=GSM7503253%5FZNF558%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF559	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503255&format=file&file=GSM7503255%5FZNF559%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF569	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF070OZC/@@download/ENCFF070OZC.bed.gz	TF	Yes		transcription factor	COG1961
+ZNF570	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF856VYT/@@download/ENCFF856VYT.bed.gz	TF	Yes		transcription factor	COG2814
+ZNF571	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503257&format=file&file=GSM7503257%5FZNF571%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3157
+ZNF572	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF637PFM/@@download/ENCFF637PFM.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF574	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF165QEH/@@download/ENCFF165QEH.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF576	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF062ELQ/@@download/ENCFF062ELQ.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF577	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF595JDU/@@download/ENCFF595JDU.bed.gz	TF	Yes		transcription factor	COG4405
+ZNF580	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF408BQV/@@download/ENCFF408BQV.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF593	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503258&format=file&file=GSM7503258%5FZNF593%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	Other	No		transcription factor	COG1734
+ZNF597	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF396EJG/@@download/ENCFF396EJG.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF598	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF921QZP/@@download/ENCFF921QZP.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG0515
+ZNF607	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF701MWB/@@download/ENCFF701MWB.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF608	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF650JSG/@@download/ENCFF650JSG.bed.gz	TF	Yes		transcription factor	COG3409
+ZNF609	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF388MQU/@@download/ENCFF388MQU.bed.gz	TF	Yes		transcription factor	COG0515
+ZNF614	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF941XGS/@@download/ENCFF941XGS.bed.gz	TF	Yes		transcription factor	COG0177
+ZNF615	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF397QBT/@@download/ENCFF397QBT.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF616	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF816JWX/@@download/ENCFF816JWX.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF619	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF328OBA/@@download/ENCFF328OBA.bed.gz	TF	Yes		transcription factor	COG0247
+ZNF629	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF034RYJ/@@download/ENCFF034RYJ.bed.gz	TF	Yes		transcription factor	COG0358
+ZNF639	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF070QDA/@@download/ENCFF070QDA.bed.gz	TF	Yes		transcription factor	COG1198
+ZNF644	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF203RMY/@@download/ENCFF203RMY.bed.gz	TF	Yes		transcription factor	COG1361
+ZNF646	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503260&format=file&file=GSM7503260%5FZNF646%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0484
+ZNF652	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF054CBG/@@download/ENCFF054CBG.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF660	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF732OUU/@@download/ENCFF732OUU.bed.gz	TF	Yes		transcription factor	COG2801
+ZNF669	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503261&format=file&file=GSM7503261%5FZNF669%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF674	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF252BNC/@@download/ENCFF252BNC.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF678	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF418FOX/@@download/ENCFF418FOX.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF687	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF740MUD/@@download/ENCFF740MUD.bed.gz	TF	Yes		transcription factor	COG1396
+ZNF688	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503263&format=file&file=GSM7503263%5FZNF688%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG4974
+ZNF691	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF199ILE/@@download/ENCFF199ILE.bed.gz	TF	Yes		transcription factor	COG3464
+ZNF697	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF385UIF/@@download/ENCFF385UIF.bed.gz	TF	Yes		transcription factor	COG0476
+ZNF7	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF461TFR/@@download/ENCFF461TFR.bed.gz	TF	Yes		transcription factor	COG0515
+ZNF701	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503264&format=file&file=GSM7503264%5FZNF701%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF703	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF598AOP/@@download/ENCFF598AOP.bed.gz	TF	Yes		transcription factor	COG0484
+ZNF704	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503266&format=file&file=GSM7503266%5FZNF704%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3039
+ZNF707	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF306CIS/@@download/ENCFF306CIS.bed.gz	TF	Yes		transcription factor	COG3311
+ZNF709	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF311UDM/@@download/ENCFF311UDM.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF710	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF443DLW/@@download/ENCFF443DLW.bed.gz	TF	Yes		transcription factor	COG1198
+ZNF713	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF124XNU/@@download/ENCFF124XNU.bed.gz	TF	Yes		transcription factor	COG1403
+KRBOX5	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF663OMI/@@download/ENCFF663OMI.bed.gz	Other	No		transcription factor	COG0446
+ZNF737	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF241CGC/@@download/ENCFF241CGC.bed.gz	TF	Yes		transcription factor	COG3464
+ZNF74	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503267&format=file&file=GSM7503267%5FZNF74%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF740	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF455XDQ/@@download/ENCFF455XDQ.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF746	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503269&format=file&file=GSM7503269%5FZNF746%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1198
+ZNF747	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503271&format=file&file=GSM7503271%5FZNF747%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3415
+ZNF75D	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503272&format=file&file=GSM7503272%5FZNF75D%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF761	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF670IOD/@@download/ENCFF670IOD.bed.gz	TF	Yes		transcription factor	COG1484
+ZNF766	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF612XIV/@@download/ENCFF612XIV.bed.gz	TF	Yes		transcription factor	COG1592
+ZNF768	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF654RZY/@@download/ENCFF654RZY.bed.gz	TF	Yes		transcription factor	COG3599
+ZNF770	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF588FNM/@@download/ENCFF588FNM.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF772	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF432AEF/@@download/ENCFF432AEF.bed.gz	TF	Yes		transcription factor	COG0477
+ZNF773	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF932NJV/@@download/ENCFF932NJV.bed.gz	TF	Yes		transcription factor	COG0789
+ZNF775	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF714LPZ/@@download/ENCFF714LPZ.bed.gz	TF	Yes		transcription factor	COG3791
+ZNF776	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF883RGN/@@download/ENCFF883RGN.bed.gz	TF	Yes		transcription factor	COG3440
+ZNF777	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF428UWW/@@download/ENCFF428UWW.bed.gz	TF	Yes		transcription factor	COG1570
+ZNF778	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF996HUI/@@download/ENCFF996HUI.bed.gz	TF	Yes		transcription factor	COG3209
+ZNF781	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF193YIR/@@download/ENCFF193YIR.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF782	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF042SYC/@@download/ENCFF042SYC.bed.gz	TF	Yes		transcription factor	COG0675
+ZNF783	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503274&format=file&file=GSM7503274%5FZNF783%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF784	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF537LZR/@@download/ENCFF537LZR.bed.gz	TF	Yes		transcription factor	COG2132
+ZNF786	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF458FBS/@@download/ENCFF458FBS.bed.gz	TF	Yes		transcription factor	COG1403
+ZNF788P	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF704BJL/@@download/ENCFF704BJL.bed.gz	TF	Yes		transcription factor	
+ZNF790	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503275&format=file&file=GSM7503275%5FZNF790%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF792	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF669RYM/@@download/ENCFF669RYM.bed.gz	TF	Yes		transcription factor	COG0515
+ZNF800	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF126HMH/@@download/ENCFF126HMH.bed.gz	TF	Yes		"RNA binding protein,transcription factor"	COG0551
+ZNF816	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503277&format=file&file=GSM7503277%5FZNF816%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0675
+ZNF827	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503278&format=file&file=GSM7503278%5FZNF827%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1413
+ZNF83	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF007OPT/@@download/ENCFF007OPT.bed.gz	TF	Yes		transcription factor	COG0789
+ZNF839	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF395CSH/@@download/ENCFF395CSH.bed.gz	Other	No		transcription factor	COG1403
+ZNF85	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503280&format=file&file=GSM7503280%5FZNF85%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1484
+ZNF850	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503281&format=file&file=GSM7503281%5FZNF850%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG1475
+ZNF853	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503283&format=file&file=GSM7503283%5FZNF853%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1579
+ZNF865	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503285&format=file&file=GSM7503285%5FZNF865%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes			COG1403
+ZNF879	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503287&format=file&file=GSM7503287%5FZNF879%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG3677
+ZNF883	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF492YLV/@@download/ENCFF492YLV.bed.gz	TF	Yes		transcription factor	COG3677
+ZNF891	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF876YSX/@@download/ENCFF876YSX.bed.gz	TF	Yes		transcription factor	COG3677
+ZSCAN12	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503288&format=file&file=GSM7503288%5FZSCAN12%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG0358
+ZSCAN20	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF038DPK/@@download/ENCFF038DPK.bed.gz	TF	Yes		transcription factor	COG5525
+ZSCAN22	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF120MEJ/@@download/ENCFF120MEJ.bed.gz	TF	Yes		transcription factor	COG3677
+ZSCAN25	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503289&format=file&file=GSM7503289%5FZSCAN25%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1773
+ZSCAN29	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF896PGF/@@download/ENCFF896PGF.bed.gz	TF	Yes		transcription factor	COG0675
+ZSCAN30	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF293DBX/@@download/ENCFF293DBX.bed.gz	TF	Yes		transcription factor	COG3012
+ZSCAN31	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF560APA/@@download/ENCFF560APA.bed.gz	TF	Yes		transcription factor	COG3464
+ZSCAN9	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF302EGM/@@download/ENCFF302EGM.bed.gz	TF	Yes		transcription factor	COG2963
+ZUP1	FLAG	Preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503290&format=file&file=GSM7503290%5FZUFSP%2DFLAG%5FPreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	
+ZXDC	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF623NDC/@@download/ENCFF623NDC.bed.gz	TF	Yes		transcription factor	COG1361
+ZZZ3	FLAG	Non-preferred	https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSM7503292&format=file&file=GSM7503292%5FZZZ3%2DFLAG%5FNon%2Dpreferred%5FLocal%2EnarrowPeak%2Egz	TF	Yes		transcription factor	COG1403
+ZZZ3	FLAG	Preferred	https://www.encodeproject.org/files/ENCFF117XPT/@@download/ENCFF117XPT.bed.gz	TF	Yes		transcription factor	COG1403
