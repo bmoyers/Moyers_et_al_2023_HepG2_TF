@@ -14,7 +14,6 @@
 # atacBW: Path to Bigwig of ATAC seq in HepG2, under ENCODE accession ENCFF262URW
 ################################################################################
 
-
 ###############################################################################
 #Use deepTools to calculate ATAC-seq signal over the different peak sets and visualize
 ###############################################################################

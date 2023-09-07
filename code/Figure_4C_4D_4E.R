@@ -25,7 +25,6 @@
 # hg38_indices/ , A directory containing nullseq indices for hg38.
 ################################################################################
 
-
 ################################################################################
 ################################################################################
 #Load Libraries
@@ -154,7 +153,7 @@ hiccup <- args[10]
 
 
 
-LambertTFs <- read.table(finalAnnotationsTFs, header=T, sep="\t", stringsAsFactors=F)
+LambertTFs <- read.delim(finalAnnotationsTFs, header=T, sep="\t", stringsAsFactors=F)
 LambertTFs <- LambertTFs[LambertTFs[,3]=="Preferred",]
 LambertTFs <- LambertTFs[LambertTFs[,5]=="TF",]
 
@@ -184,9 +183,9 @@ for (i in 1:length(peakFiles)) {
 }
 
 
-dim(TFs_table[TFs_table[,1]%in%LambertTFs[LambertTFs[,4]=="Yes",2],])
+dim(TFs_table[TFs_table[,1]%in%LambertTFs[LambertTFs[,5]=="TF",1],])
 
-TFs_table <- TFs_table[TFs_table[,1]%in%LambertTFs[LambertTFs[,4]=="Yes",2],]
+TFs_table <- TFs_table[TFs_table[,1]%in%LambertTFs[LambertTFs[,5]=="TF",1],]
 
 TFs_table <- as.data.frame(TFs_table)
 colnames(TFs_table) <- c("TF", "PeakPath")
@@ -445,7 +444,7 @@ for (i in 1:nrow(all_other_selfOverlap_sample)) {
 }
 
 all_other_selfOverlap_peaks <- all_other_selfOverlap_peaks[order(all_other_selfOverlap_peaks[,7], decreasing=T),]
-
+all_other_selfOverlap_peaks_gr <- makeGRangesFromDataFrame(all_other_selfOverlap_peaks)
 
 
 ################################################################################
@@ -567,7 +566,7 @@ graphDF$Type <- factor(graphDF$Type, levels=c("sMAF_sMAF", "sMAF_Cofactor", "sMA
 
 
 saveFile <- paste(outDir, "Moyers_Figure4D.pdf", sep="")
-p <- ggplot(graphDF, aes(x=Type, y=logTPM)) + theme_bw() + geom_boxplot() + ylab("log(TPM) of Nearest Gene") + xlab("") +
+p <- ggplot(graphDF, aes(x=Type, y=logTPM)) + theme_classic() + geom_boxplot() + ylab("log(TPM) of Nearest Gene") + xlab("") +
   theme(axis.text= element_text(size=15), axis.title=element_text(size=25), axis.text.x=element_text(angle=90, vjust=0.5, hjust=0.5)) + ylim(-5,10) +
   scale_x_discrete(labels=c('sMAF-sMAF', 'sMAF-Cofactor', 'sMAF-Other', 'non-sMAF'))
 ggsave(saveFile)
@@ -678,7 +677,7 @@ hiccup_overlap_data$set <- factor(hiccup_overlap_data$set, levels=hiccup_overlap
 ################################################################################
 
 saveFile <- paste(outDir, "Moyers_Figure4E.pdf", sep="")
-p <- ggplot(data=hiccup_overlap_data, aes(x=set, y=Fraction)) + theme_bw() +
+p <- ggplot(data=hiccup_overlap_data, aes(x=set, y=Fraction)) + theme_classic() +
   geom_bar(stat="identity") +  theme(axis.text= element_text(size=15), axis.title=element_text(size=25), axis.text.x=element_text(angle=90, vjust=0.5, hjust=0.5)) +
   ylab("Fraction with Connection") + xlab("") +
   scale_x_discrete(labels=c('sMAF-sMAF', 'sMAF-Cofactor', 'sMAF-Other', 'non-sMAF'))
