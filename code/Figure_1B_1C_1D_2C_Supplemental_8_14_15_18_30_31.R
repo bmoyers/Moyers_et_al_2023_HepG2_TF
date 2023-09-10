@@ -828,7 +828,7 @@ write.table(this_control_numTable, saveFile, row.names=F, col.names=T, sep="\t",
 ################################################################################
 
 
-bindingExprData <- readRDS("/gpfs/gpfs1/home/bmoyers/Figures/ENCODE_500plus/Results_post_July5/BindingExpression/binding_expr_models_results.rds")
+bindingExprData <- readRDS(bindingExprData)
 
 models_df <- as.data.frame(bindingExprData[[1]])
 summary_df <- as.data.frame(bindingExprData[[2]])

@@ -76,7 +76,7 @@ custom_col <- c("#F51313", "#F59913", "#F5C813", "#EEA4A0", "#43B6F3", "#56D59C"
 ################################################################################
 
 
-bindingExprData <- readRDS("/gpfs/gpfs1/home/bmoyers/Figures/ENCODE_500plus/Results_post_July5/BindingExpression/binding_expr_models_results.rds")
+bindingExprData <- readRDS(bindingExprData)
 
 models_df <- as.data.frame(bindingExprData[[1]])
 summary_df <- as.data.frame(bindingExprData[[2]])
