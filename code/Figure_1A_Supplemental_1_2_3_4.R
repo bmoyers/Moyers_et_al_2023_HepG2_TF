@@ -286,7 +286,7 @@ pval_table <- as.data.frame(pval_table)
 colnames(pval_table) <- c("bin", "pvalue")
 pval_table$pvalue <- as.numeric(as.character(pval_table$pvalue))
 
-saveFile <- paste(outDir, "Supplemental_3_table.txt", sep="")
+saveFile <- paste(outDir, "Supplemental_Table_3.txt", sep="")
 write.table(pval_table, saveFile, row.names=F, col.names=T, sep="\t", quote=F)
 
 
@@ -417,7 +417,7 @@ custom_col <- c("white", "grey")
 
 
 
-saveFile <- paste(outDir, "Moyers_Figure1A_controlComparison.pdf", sep="")
+saveFile <- paste(outDir, "Supplemental_1.pdf", sep="")
 ggplot(data=alt_graphDF, aes(x=State, y=Number, fill=Status)) + geom_bar(stat="identity", color="black") + theme_classic() +
   theme(axis.text=element_text(size=20), axis.title=element_text(size=25), legend.title=element_text(size=25), legend.text=element_text(size=20)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
   xlab("") + ylab("Number of cCREs") + scale_fill_manual(name="", values = custom_col, na.value="grey50") + labs(title="")
@@ -444,7 +444,7 @@ pval_table <- as.data.frame(pval_table)
 colnames(pval_table) <- c("state", "pvalue")
 pval_table$pvalue <- as.numeric(as.character(pval_table$pvalue))
 
-saveFile <- paste(outDir, "Supplemental_2_table.txt", sep="")
+saveFile <- paste(outDir, "Supplemental_Table_2.txt", sep="")
 write.table(pval_table, saveFile, row.names=F, col.names=T, sep="\t", quote=F)
 
 

@@ -2,16 +2,22 @@
 #Supplemental_13.R
 
 ################################################################################
-#This script is used to produce Supplemental Figure 13.
+#This script is used to produce Supplemental Figure 13
 #
-#Run under R 3.6.1
+#Run under R 4.1.1
 #This script takes as arguments:
 # outDir: Path where files are to be written
+# thePromoters: file containing refseq TSS with gene names +/- 500bp,
+#     provided for download as refseq_genes_unique_TSS_1000.bed
+# expr1 and expr2: Path to expression levels of genes in HepG2,
+#     accession numbers ENCFF533XPJ and ENCFF321JIT
+# expr1_k562 and expr2_k562: Path to expression levels of genes in HepG2,
+#     accession numbers ENCFF286GLL and ENCFF986DBN
+# finalAnnotationsTFs: Supplemental Table 1
 # exprDir: Path to the directory containing all ChIP-seq experiments in HepG2,
 #     provided for download in folder Experiment_Set.
-# bindingExprData: Model data produced by binding expression scripts. Provided
-#     for download as binding_expr_models_results.rds
-# cCREs: Path to the Version 4 cCREs provided by Jill Moore in June 2022.
+# exprDir_k562: Path to the directory containing all ChIP-seq experiments in HepG2,
+#     provided for download in folder Experiment_Set_K562.
 #
 ################################################################################
 
@@ -22,330 +28,262 @@
 ################################################################################
 
 library(GenomicRanges)
+library(biomaRt)
 library(ggplot2)
-library(ggpubr)
-
-
-################################################################################
-################################################################################
-#Define Functions
-################################################################################
-################################################################################
-
-
-blank_theme <- theme_minimal()+
-  theme(
-  axis.text.x=element_blank(),
-  axis.title.x = element_blank(),
-  axis.title.y = element_blank(),
-  panel.border = element_blank(),
-  panel.grid=element_blank(),
-  axis.ticks = element_blank(),
-  plot.title=element_text(size=14, face="bold"),
-  )
-
-
-find_TF_name <- function(fileName, theSplit="_") {
-  fileName <- gsub(".bed", "", fileName)
-  fileName <- gsub("/", "", fileName)
-  fileName <- strsplit(fileName, split=theSplit)[[1]]
-  #fileName <- paste(fileName[1], fileName[length(fileName)], sep="_")
-  return(fileName[1])
-}
-
+library(MASS)
+library(matrixStats)
 
 ################################################################################
 ################################################################################
-#Being Script
+#Functions
 ################################################################################
 ################################################################################
 
 
-cCREs <- read.table(cCREs, header=F, sep="\t", stringsAsFactors=F)
-cCREs <- cCREs[,c(1:3,6)]
-colnames(cCREs)[1:4] <- c("chr", "start", "end", "state")
-cCREs_gr <- makeGRangesFromDataFrame(cCREs, ignore.strand=TRUE, keep.extra.columns=F)
-
-
-theStates <- c("PLS", "pELS", "dELS", "CA-H3K4me3", "CA-CTCF", "CA-TF", "TF", "CA", "None")
-custom_col <- c("#F51313", "#F59913", "#F5C813", "#EEA4A0", "#43B6F3", "#56D59C", "#6EA38B", "#808080", "#000000")
-
-
 ################################################################################
-#Read in model and identify the candidate repressors and activators
+#This function takes a dataframe of promoters associated with genes (must have
+#gene names in the "name" column), a table of expression values, and a table of genes
+#relating gene names to gene expression values.  It then goes through and determines
+#the maximum expression level associated with a given promoter.
 ################################################################################
-
-
-bindingExprData <- readRDS(bindingExprData)
-
-models_df <- as.data.frame(bindingExprData[[1]])
-summary_df <- as.data.frame(bindingExprData[[2]])
-
-
-candidateDF <- c()
-for (i in 2:nrow(summary_df)) {
-  print(paste(i, nrow(summary_df)))
-  thisTF <- summary_df[i,1]
-  this_fraction_significant <- summary_df[i,"frac_sig"]
-  #mean_est <- summary_df[i,"mean_est"]
-  this_miniModels <- models_df[models_df[,1]==thisTF,c("estimate", "pearson_cor", "spearman_cor", "rsq", "p.value")]
-  this_miniModels <- this_miniModels[as.numeric(as.character(this_miniModels[,"p.value"]))<=0.05,]
-  median_estimate <- median(as.numeric(as.character(this_miniModels[,"estimate"])))
-  #theName <- strsplit(summary_df[i,19], split=" ")[[1]][1]
-  theName <- toupper(thisTF)
-
-
-  miniDF <- cbind(this_miniModels, rep(theName, nrow(this_miniModels)), rep(this_fraction_significant, nrow(this_miniModels)), rep(median_estimate, nrow(this_miniModels)))
-  colnames(miniDF) <- c("estimate", "pearson_cor", "spearman_cor", "rsq", "p.value", "TF", "frac_sig", "median_estimate")
-  candidateDF <- rbind(candidateDF, miniDF)
-}
-
-candidateDF <- as.data.frame(candidateDF)
-for (i in c(1,2,3,4,5,7,8)) {candidateDF[,i] <- as.numeric(as.character(candidateDF[,i]))}
-candidateDF[,6] <- as.character(candidateDF[,6])
-
-candidateDF[candidateDF[,6]=="NKX31",6] <- "NKX3-1"
-
-candidateRepressors <- candidateDF[,6:8]
-candidateRepressors <- unique(candidateRepressors)
-candidateRepressors <- candidateRepressors[candidateRepressors[,3]<0,]
-candidateRepressors <- candidateRepressors[candidateRepressors[,2]>=0.5,]
-candidateRepressors <- candidateRepressors[!is.na(candidateRepressors[,1]),]
-
-Repressors <- candidateRepressors[,1]
-
-
-
-candidateActivators <- candidateDF[,6:8]
-candidateActivators <- unique(candidateActivators)
-candidateActivators <- candidateActivators[candidateActivators[,3]>0,]
-candidateActivators <- candidateActivators[candidateActivators[,2]>=0.5,]
-candidateActivators <- candidateActivators[!is.na(candidateActivators[,1]),]
-candidateActivators <- candidateActivators[order(candidateActivators$frac_sig, candidateActivators$median_estimate, decreasing=T),]
-
-Activators <- candidateActivators[,1]
-Activators <- Activators[1:26]
-
-
-
-
-################################################################################
-#Read in cCREs.
-################################################################################
-
-
-################################################################################
-#For all of the Repressors, get the number of peaks in each category.
-#Make a circle plot for each.
-################################################################################
-
-allPeaks <- list.files(exprDir, full.names=T, pattern="Preferred")
-
-outDir_Indiv <- paste(outDir, "cCRE_distribution_Repressors/", sep="")
-if(!file.exists(outDir_Indiv)) {system(paste("mkdir ", outDir_Indiv, sep=""))}
-
-total_peaks_df <- matrix(nrow=length(Repressors), ncol=length(theStates), data=NA)
-colnames(total_peaks_df) <- theStates
-fraction_peaks_df <- total_peaks_df
-
-for (i in 1:length(Repressors)) {
-  thisPeaks <- allPeaks[grep(Repressors[i], allPeaks)]
-
-  this_peaks <- read.table(thisPeaks)
-  this_starts <- as.numeric(as.character(this_peaks[,2]))
-  this_ends <- as.numeric(as.character(this_peaks[,3]))
-  this_means <- (this_starts + this_ends)/2
-  this_peaks[,2] <- this_means
-  this_peaks[,3] <- this_means
-  this_peaks <- as.data.frame(this_peaks)
-  colnames(this_peaks)[1:3] <- c("chr", "start", "end")
-  this_peaks_gr <- makeGRangesFromDataFrame(this_peaks, ignore.strand=T)
-
-  cCREs_Intersect <- as.data.frame(findOverlaps(this_peaks_gr, cCREs_gr))
-  these_states <- cCREs[cCREs_Intersect[,2],4]
-  these_states_counts <- c()
-  for (j in 1:length(theStates)) {
-    these_states_counts[j] <- length(these_states[these_states==theStates[j]])
+getNamesAndExpr <- function(thisCounts, thisExpr, theGenes) {
+  thisCounts <- read.table(thisCounts, header=F, sep="\t", stringsAsFactors=F)
+  colnames(thisCounts) <- c("chr", "start", "end", "name", "IDK", "zstrand")
+  expressionVector <- rep(NA, nrow(thisCounts))
+  for (i in 1:nrow(thisCounts)) {
+    if(i%%1000==0) { print(paste(i, nrow(thisCounts), sep="  "))}
+    this_ENSG <- unique(theGenes[which(theGenes[,3]==thisCounts[i,"name"]),1])
+    if(length(this_ENSG)>0) {
+      exprSet <- c()
+      for (j in 1:length(this_ENSG)) {
+        exprSet <- rbind(exprSet, thisExpr[grep(this_ENSG[j], thisExpr[,1], fixed=T),])
+      }
+      if(length(unique(exprSet[,"TPM"]))==1) {
+        expressionVector[i] <- exprSet[1,"TPM"]
+      }
+      if(length(unique(exprSet[,"TPM"]))>1) {
+        expressionVector[i] <- max(exprSet[,"TPM"])
+      }
+    }
+    if(length(this_ENSG)==0) {
+      expressionVector[i] <- NA
+    }
   }
-  these_states_counts[length(these_states_counts)] <- nrow(this_peaks)-sum(these_states_counts)
-
-  total_peaks_df[i,] <- these_states_counts
-  these_states_counts_fractions <- these_states_counts/nrow(this_peaks)
-  fraction_peaks_df[i,] <- these_states_counts_fractions
-
-  this_save_file <- paste(outDir_Indiv, Repressors[i], "_cCREs_piechart.pdf", sep="")
-  piechart_label <- paste(Repressors[i], " distribution with cCREs labels", sep="")
-  piechart_sub <- paste("In ", nrow(this_peaks), " peaks", sep="")
-  df <- data.frame(cCREs=theStates, Fraction=as.numeric(these_states_counts_fractions))
-	df$cCREs <- factor(df$cCREs, levels=df$cCREs)
-	bp <- ggplot(df, aes(x="", y=Fraction, fill=cCREs)) + geom_bar(stat="identity", color="black", position=position_fill(reverse = TRUE)) + scale_fill_manual(name="cCREs", values = custom_col, na.value="grey50")
-	pie <- bp + coord_polar("y", start=0) + labs(title=piechart_label, subtitle=piechart_sub) + blank_theme
-  ggsave(this_save_file)
-
-
+  TPM <- expressionVector
+  countsTable <- cbind(thisCounts, TPM)
+  return(countsTable)
 }
 
-rownames(total_peaks_df) <- Repressors
-rownames(fraction_peaks_df) <- Repressors
+
 
 ################################################################################
-#Make 2 barplots for repressors, one with total peak counts and one with fractions,
-#showing cCRE distribution for each factor.
+#The following functions make graphs of predicted versus observed data.
 ################################################################################
 
-
-graphDF <- c()
-for (i in 1:nrow(total_peaks_df)) {
-  for (j in 1:ncol(total_peaks_df)) {
-    thisLine <- c(rownames(total_peaks_df)[i], colnames(total_peaks_df)[j], total_peaks_df[i,j], fraction_peaks_df[i,j])
-    graphDF <- rbind(graphDF, thisLine)
-  }
+get_density <- function(x, y, ...) {
+  dens <- MASS::kde2d(x, y, ...)
+  ix <- findInterval(x, dens$x)
+  iy <- findInterval(y, dens$y)
+  ii <- cbind(ix, iy)
+  return(dens$z[ii])
 }
-graphDF <- as.data.frame(graphDF)
-colnames(graphDF) <- c("Repressor", "cCRE", "PeakCount", "PeakFraction")
-graphDF[,3] <- as.numeric(as.character(graphDF[,3]))
-graphDF[,4] <- as.numeric(as.character(graphDF[,4]))
-graphDF$cCRE <- factor(graphDF$cCRE, levels=theStates)
-graphDF$Repressor <- factor(graphDF$Repressor, levels=Repressors)
 
-saveFile <- paste(outDir, "Supplemental_13_Repressors.pdf", sep="")
-ggplot(data=graphDF, aes(x=Repressor, y=PeakCount, fill=cCRE)) + geom_bar(stat="identity") + theme_classic() +
-  theme(axis.text=element_text(size=15), axis.title=element_text(size=25), legend.title=element_text(size=15), legend.text=element_text(size=20)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  xlab("Repressor") + ylab("Number of Peaks") + scale_fill_manual(name="cCRE class", values = custom_col, na.value="grey50")
-ggsave(saveFile)
-
-
-saveFile <- paste(outDir, "cCRE_distribution_peakFraction_Repressors.pdf", sep="")
-ggplot(data=graphDF, aes(x=Repressor, y=PeakFraction, fill=cCRE)) + geom_bar(stat="identity") + theme_classic() +
-  theme(axis.text=element_text(size=15), axis.title=element_text(size=25), legend.title=element_text(size=15), legend.text=element_text(size=20)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  xlab("Repressor") + ylab("Fraction of Peaks") + scale_fill_manual(name="cCRE class", values = custom_col, na.value="grey50")
-ggsave(saveFile)
-
-
-graphDF_repressors <- graphDF
+makeGraph <- function(theY, theX, saveFile, xLab="", yLab="", mainLab="", theCor=NULL, theCor2=NULL) {
+  df <- cbind(as.numeric(theY), as.numeric(theX))
+  df <- as.data.frame(df, stringsAsFactors=F)
+  df$density <- get_density(df[,1], df[,2], n=30)
+  ggplot(df, aes(x=theX, y=theY, color = density)) +
+    geom_point() + labs(x=xLab, y=yLab) + theme_classic() +
+    theme(axis.text= element_text(size=20), axis.title=element_text(size=25), axis.text.x=element_text(angle=90, vjust=0.5, hjust=0.5), legend.title=element_text(size=25), legend.text=element_text(size=20)) +
+    geom_smooth(method='lm') #+ xlim(-3,8)
+  ggsave(saveFile)
+  #, title=mainLab, subtitle=paste("rho=", round(theCor, digits=4), ", r=", round(theCor2, digits=4), sep="")
+}
 
 
 
 
 ################################################################################
-#For all of the Activators, get the number of peaks in each category.
-#Make a circle plot for each.
+################################################################################
+#Begin Script
+################################################################################
 ################################################################################
 
-allPeaks <- list.files(exprDir, full.names=T, pattern="Preferred")
+args <- commandArgs(trailingOnly=T)
+outDir <- args[1]
+thePromoters <- args[2]
+expr1 <- args[3]
+expr2 <- args[4]
+expr1_k562 <- args[5]
+expr2_k562 <- args[6]
+finalAnnotationsTFs <- args[7]
+exprDir <- args[8]
+exprDir_k562 <- args[9]
 
-outDir_Indiv <- paste(outDir, "cCRE_distribution_Activators/", sep="")
-if(!file.exists(outDir_Indiv)) {system(paste("mkdir ", outDir_Indiv, sep=""))}
 
-total_peaks_df <- matrix(nrow=length(Activators), ncol=length(theStates), data=NA)
-colnames(total_peaks_df) <- theStates
-fraction_peaks_df <- total_peaks_df
 
-for (i in 1:length(Activators)) {
-  thisPeaks <- allPeaks[grep(Activators[i], allPeaks)]
-  if(length(thisPeaks)>1) {
-    thisPeaks <- thisPeaks[grep(paste("/", Activators[i], sep=""), thisPeaks)]
+################################################################################
+#Get the TSS+/-1kb file;
+#Get expression level for each gene.
+################################################################################
+
+TSS <- thePromoters
+
+expr1 <- read.delim(expr1, header=T, sep="\t", stringsAsFactors=F)
+expr2 <- read.delim(expr2, header=T, sep="\t", stringsAsFactors=F)
+finalExpr <- cbind(expr1[,1:3], c((expr1[,4]+expr2[,4])/2), c((expr1[,5]+expr2[,5])/2), c((expr1[,6]+expr2[,6])/2))
+colnames(finalExpr) <- c(colnames(expr1)[1:6])
+ensembl = useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl", GRCh=37)
+the_genes <- getBM(attributes=c('ensembl_gene_id','ensembl_transcript_id','hgnc_symbol','chromosome_name','start_position','end_position'), mart = ensembl)
+TSS_expr <- getNamesAndExpr(TSS, finalExpr, the_genes)
+
+
+TSS_expr <- TSS_expr[,c(1:4,7)]
+TSS_expr <- as.data.frame(TSS_expr)
+TSS_expr_gr <- makeGRangesFromDataFrame(TSS_expr, ignore.strand=T, keep.extra.columns=F)
+
+################################################################################
+#Identify the relevant files, preferred only.
+#remove histones.
+#restrict to TFs only.
+################################################################################
+
+################################################################################
+#HepG2
+################################################################################
+
+annotations <- read.delim(finalAnnotationsTFs, header=T, sep="\t", stringsAsFactors=F)
+annotations <- annotations[,c(1,3,5)]
+annotations <- annotations[annotations[,2]=="Preferred",]
+annotations <- annotations[annotations[,3]=="TF",]
+
+experimentFiles <- list.files(exprDir, pattern="Preferred", full.names=T)
+
+theColnames <- c()
+theBound <- c()
+for (i in 1:length(experimentFiles)) {
+  these_bound <- rep(0, nrow(TSS_expr))
+  thisTF <- strsplit(experimentFiles[i], split="/")[[1]]
+  thisTF <- thisTF[length(thisTF)]
+  thisTF <- strsplit(thisTF, split="_")[[1]][1]
+  thisTF <- gsub("-FLAG", "", thisTF)
+  thisTF <- gsub("-eGFP", "", thisTF)
+  if(!thisTF%in%annotations[,1]) {print(thisTF)}
+  if(thisTF%in%annotations[,1]) {
+    theColnames <- c(theColnames, thisTF)
+    thisFile <- read.delim(experimentFiles[i], header=F, sep="\t", stringsAsFactors=F)
+    thisFile <- as.data.frame(thisFile)
+    colnames(thisFile)[1:3] <- c("chr", "start", "end")
+    thisFile_gr <- makeGRangesFromDataFrame(thisFile, ignore.strand=T, keep.extra.columns=F)
+    theIntersect <- as.data.frame(findOverlaps(TSS_expr_gr, thisFile_gr))
+
+    these_bound[unique(theIntersect[,1])] <- 1
+
+    theBound <- cbind(theBound, these_bound)
   }
 
-  this_peaks <- read.table(thisPeaks)
-  this_starts <- as.numeric(as.character(this_peaks[,2]))
-  this_ends <- as.numeric(as.character(this_peaks[,3]))
-  this_means <- (this_starts + this_ends)/2
-  this_peaks[,2] <- this_means
-  this_peaks[,3] <- this_means
-  this_peaks <- as.data.frame(this_peaks)
-  colnames(this_peaks)[1:3] <- c("chr", "start", "end")
-  this_peaks_gr <- makeGRangesFromDataFrame(this_peaks, ignore.strand=T)
+}
 
-  cCREs_Intersect <- as.data.frame(findOverlaps(this_peaks_gr, cCREs_gr))
-  these_states <- cCREs[cCREs_Intersect[,2],4]
-  these_states_counts <- c()
-  for (j in 1:length(theStates)) {
-    these_states_counts[j] <- length(these_states[these_states==theStates[j]])
+colnames(theBound) <- theColnames
+
+
+final_table <- cbind(TSS_expr, theBound)
+
+
+
+
+################################################################################
+#Now do K562
+################################################################################
+
+expr1 <- read.delim(expr1_k562, header=T, sep="\t", stringsAsFactors=F)
+expr2 <- read.delim(expr1_k562, header=T, sep="\t", stringsAsFactors=F)
+finalExpr <- cbind(expr1[,1:3], c((expr1[,4]+expr2[,4])/2), c((expr1[,5]+expr2[,5])/2), c((expr1[,6]+expr2[,6])/2))
+colnames(finalExpr) <- c(colnames(expr1)[1:6])
+ensembl = useEnsembl(biomart="ensembl", dataset="hsapiens_gene_ensembl", GRCh=37)
+the_genes <- getBM(attributes=c('ensembl_gene_id','ensembl_transcript_id','hgnc_symbol','chromosome_name','start_position','end_position'), mart = ensembl)
+TSS_expr <- getNamesAndExpr(TSS, finalExpr, the_genes)
+
+
+TSS_expr <- TSS_expr[,c(1:4,7)]
+TSS_expr <- as.data.frame(TSS_expr)
+TSS_expr_gr <- makeGRangesFromDataFrame(TSS_expr, ignore.strand=T, keep.extra.columns=F)
+
+
+experimentFiles <- list.files(exprDir_k562, full.names=T)
+
+theColnames <- c()
+theBound <- c()
+for (i in 1:length(experimentFiles)) {
+  these_bound <- rep(0, nrow(TSS_expr))
+  thisTF <- strsplit(experimentFiles[i], split="/")[[1]]
+  thisTF <- thisTF[length(thisTF)]
+  thisTF <- strsplit(thisTF, split="_")[[1]][1]
+  thisTF <- gsub("-FLAG", "", thisTF)
+  thisTF <- gsub("-eGFP", "", thisTF)
+  if(!thisTF%in%annotations[,1]) {print(thisTF)}
+  if(thisTF%in%annotations[,1]) {
+    theColnames <- c(theColnames, thisTF)
+    thisFile <- read.delim(experimentFiles[i], header=F, sep="\t", stringsAsFactors=F)
+    thisFile <- as.data.frame(thisFile)
+    colnames(thisFile)[1:3] <- c("chr", "start", "end")
+    thisFile_gr <- makeGRangesFromDataFrame(thisFile, ignore.strand=T, keep.extra.columns=F)
+    theIntersect <- as.data.frame(findOverlaps(TSS_expr_gr, thisFile_gr))
+
+    these_bound[unique(theIntersect[,1])] <- 1
+
+    theBound <- cbind(theBound, these_bound)
   }
-  these_states_counts[length(these_states_counts)] <- nrow(this_peaks)-sum(these_states_counts)
-
-  total_peaks_df[i,] <- these_states_counts
-  these_states_counts_fractions <- these_states_counts/nrow(this_peaks)
-  fraction_peaks_df[i,] <- these_states_counts_fractions
-
-  this_save_file <- paste(outDir_Indiv, Activators[i], "_cCREs_piechart.pdf", sep="")
-  piechart_label <- paste(Activators[i], " distribution with cCREs labels", sep="")
-  piechart_sub <- paste("In ", nrow(this_peaks), " peaks", sep="")
-  df <- data.frame(cCREs=theStates, Fraction=as.numeric(these_states_counts_fractions))
-	df$cCREs <- factor(df$cCREs, levels=df$cCREs)
-	bp <- ggplot(df, aes(x="", y=Fraction, fill=cCREs)) + geom_bar(stat="identity", color="black", position=position_fill(reverse = TRUE)) + scale_fill_manual(name="cCREs", values = custom_col, na.value="grey50")
-	pie <- bp + coord_polar("y", start=0) + labs(title=piechart_label, subtitle=piechart_sub) + blank_theme
-  ggsave(this_save_file)
-
 
 }
 
-rownames(total_peaks_df) <- Activators
-rownames(fraction_peaks_df) <- Activators
+colnames(theBound) <- theColnames
 
 
-############################################################################
-#Make 2 barplots for activators, one with total peak counts and one with fractions,
-#showing cCRE distribution for each factor.
+final_table_k562 <- cbind(TSS_expr, theBound)
+
+
+################################################################################
+#Restrict each matrix to the same factors.
+#train in HepG2
+#test in K562.
+#To avoid some problem of overfitting, do the same, but use only 70%/30% of the data,
+#nonoverlapping, in each cell type.
 ################################################################################
 
 
-graphDF <- c()
-for (i in 1:nrow(total_peaks_df)) {
-  for (j in 1:ncol(total_peaks_df)) {
-    thisLine <- c(rownames(total_peaks_df)[i], colnames(total_peaks_df)[j], total_peaks_df[i,j], fraction_peaks_df[i,j])
-    graphDF <- rbind(graphDF, thisLine)
-  }
-}
-graphDF <- as.data.frame(graphDF)
-colnames(graphDF) <- c("Activator", "cCRE", "PeakCount", "PeakFraction")
-graphDF[,3] <- as.numeric(as.character(graphDF[,3]))
-graphDF[,4] <- as.numeric(as.character(graphDF[,4]))
-graphDF$cCRE <- factor(graphDF$cCRE, levels=theStates)
-graphDF$Activator <- factor(graphDF$Activator, levels=Activators)
+final_table_hepG2 <- final_table[,colnames(final_table)%in%colnames(final_table_k562)]
 
-saveFile <- paste(outDir, "Supplemental_13_Activators.pdf", sep="")
-ggplot(data=graphDF, aes(x=Activator, y=PeakCount, fill=cCRE)) + geom_bar(stat="identity") + theme_classic() +
-  theme(axis.text=element_text(size=15), axis.title=element_text(size=25), legend.title=element_text(size=15), legend.text=element_text(size=20)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  xlab("Activator") + ylab("Number of Peaks") + scale_fill_manual(name="cCRE class", values = custom_col, na.value="grey50")
-ggsave(saveFile)
+final_table_hepG2 <- final_table_hepG2[,5:ncol(final_table_hepG2)]
+final_table_k562 <- final_table_k562[,5:ncol(final_table_k562)]
+
+final_table_hepG2$TPM <- log(final_table_hepG2$TPM+0.01)
+final_table_hepG2 <- final_table_hepG2[!is.na(final_table_hepG2$TPM),]
+final_table_k562$TPM <- log(final_table_k562$TPM+0.01)
+final_table_k562 <- final_table_k562[!is.na(final_table_k562$TPM),]
 
 
-saveFile <- paste(outDir, "cCRE_distribution_peakFraction_Activators.pdf", sep="")
-ggplot(data=graphDF, aes(x=Activator, y=PeakFraction, fill=cCRE)) + geom_bar(stat="identity") + theme_classic() +
-  theme(axis.text=element_text(size=15), axis.title=element_text(size=25), legend.title=element_text(size=15), legend.text=element_text(size=20)) + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
-  xlab("Activator") + ylab("Number of Peaks") + scale_fill_manual(name="cCRE class", values = custom_col, na.value="grey50")
-ggsave(saveFile)
+#Using a 70/30 split in the data.
+set.seed(1)
+theSample <- sample(1:nrow(final_table_hepG2), floor(0.7*nrow(final_table_hepG2)), replace=F)
+
+final_table_hepG2_test <- final_table_hepG2[theSample,]
+final_table_k562_pred <- final_table_k562[-theSample,]
 
 
-graphDF_activators <- graphDF
+theLM <- lm(TPM ~ . , data=final_table_hepG2_test)
+
+thePred_lm <- predict(theLM, final_table_k562_pred[,2:ncol(final_table_k562_pred)])
+theCor <- cor.test(final_table_k562_pred[,1], thePred_lm, method="spearman")
+theCor2 <- cor.test(final_table_k562_pred[,1], thePred_lm, method="pearson")
+print(theCor2)
+
+xLab <- "Observed log(TPM)"
+yLab <- "Predicted log(TPM)"
+
+saveFile_1 <- paste(outDir, "Supplemental_13.pdf", sep="")
+makeGraph(final_table_k562_pred[,1], thePred_lm, saveFile_1, xLab=xLab, yLab=yLab)
 
 
-############################################################################
-#Do a fraction comparison of all Repressors and Activators in each cCRE type.
-############################################################################
-
-
-graphDF_cCRE_fractions <- c()
-
-for (i in 1:length(theStates)) {
-  these_repressors <- graphDF_repressors[graphDF_repressors$cCRE==theStates[i],c("PeakFraction", "cCRE")]
-  these_repressors <- as.data.frame(cbind(these_repressors, rep("Repressor", nrow(these_repressors))))
-  colnames(these_repressors)[3] <- "Type"
-  graphDF_cCRE_fractions <- rbind(graphDF_cCRE_fractions, these_repressors)
-
-  these_activators <- graphDF_activators[graphDF_activators$cCRE==theStates[i],c("PeakFraction", "cCRE")]
-  these_activators <- as.data.frame(cbind(these_activators, rep("Activator", nrow(these_activators))))
-  colnames(these_activators)[3] <- "Type"
-  graphDF_cCRE_fractions <- rbind(graphDF_cCRE_fractions, these_activators)
-
-}
-
-
-
-saveFile <- paste(outDir, "cCRE_distribution_peakFraction_TypeComparison_boxplot.pdf", sep="")
-p <- ggplot(graphDF_cCRE_fractions, aes(x=cCRE, y=PeakFraction, fill=Type)) + theme_classic() + geom_boxplot() + ylab("PeakFraction") + xlab("cCREs") +
-  theme(axis.text= element_text(size=20), axis.title=element_text(size=25), axis.text.x=element_text(angle=90, vjust=0.5, hjust=0.5), legend.title=element_text(size=25), legend.text=element_text(size=20)) + ylim(0,0.75) +
-  stat_compare_means(aes(group=Type), label = "p.signif", label.y = 0.7, method="wilcox.test")
-ggsave(saveFile)
+#
+#
